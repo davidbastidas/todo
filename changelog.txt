@@ -1,0 +1,4 @@
+modificando:
+-Agregar fotos de equipo a hoja de vida del equipo para mostrar en informe.
+
+-Cambiar uso de fotos solicitadas al momento de crear el informe como anexo fotográfico al final del informe.

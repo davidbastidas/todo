@@ -1,0 +1,145 @@
+{
+  "fecha_zona_protegida": "",
+  "hora_zona_protegida": "",
+  "firma_zona_protegida": "",
+  "jefe_zona_protegida": "",
+  "hora_jefe_zona_protegida": "",
+  "firma_jefe_zp": "",
+  "fecha_zona_trabajo": "",
+  "hora_zona_trabajo": "",
+  "firma_zona_trabajo": "",
+  "jefe_zona_trabajo": "",
+  "hora_jefe_zona_trabajo": "",
+  "firma_jefe_zt": "",
+  "formato_ingreso_asociado": "",
+  "formato_analisis_riesgo": "",
+  "formato_charla": "",
+  "formato_equipos_prueba": "",
+  "formato_inspeccion_herramientas": "",
+  "formato_equipos_desenergizados": "",
+  "formato_tension_caliente": "",
+  "table_reglas_oro": [
+    {
+      "corte_visible_efectivo":"",
+      "firma_corte_visible_efectivo":"",
+      "uso_adecuado_epp":"",
+      "firma_uso_adecuado_epp":"",
+      "observacion1":""
+    },
+    {
+      "bloqueo":"",
+      "firma_bloqueo":"",
+      "planificacion_trabajo":"",
+      "firma_planificacion_trabajo":"",
+      "observacion2":""
+    },
+    {
+      "verificar_ausencia_tension":"",
+      "firma_verificar_ausencia_tension":"",
+      "mitigar_riesgos":"",
+      "firma_mitigar_riesgos":"",
+      "observacion3":""
+    },
+    {
+      "colocar_puesta_tierra":"",
+      "firma_colocar_puesta_tierra":"",
+      "seguir_protocolos_procedimientos":"",
+      "firma_seguir_protocolos_procedimientos":"",
+      "observacion4":""
+    },
+    {
+      "delimitar_area_trabajo":"",
+      "firma_delimitar_area_trabajo":"",
+      "uso_adecuado_herramientas":"",
+      "firma_uso_adecuado_herramientas":"",
+      "observacion5":""
+    }
+  ],
+  "descripcion_planificacion_trabajo":"",
+  "cantidad_programada":"",
+  "table_parte_actividad": [
+    {
+      "real1":"",
+      "previsto1":"",
+      "real2":"",
+      "previsto2":"",
+      "real3":"",
+      "real4":"",
+      "aseo_limpieza":"",
+      "cuales_aseo_limpieza":""
+    }
+  ],
+  "table_personal_operativo": [
+    {
+      "jefe_trabajo":"",
+      "persona1":"",
+      "persona2":"",
+      "persona3":"",
+      "persona4":"",
+      "persona5":"",
+      "persona6":"",
+      "persona7":"",
+      "persona8":"",
+      "persona9":"",
+      "persona10":"",
+      "persona11":"",
+      "hora_real_inicio":"",
+      "tubos_fluorecentes":"",
+      "trapos_contaminados":"",
+      "baterias":"",
+      "equipos_electronicos":"",
+      "envases_quimicos":"",
+      "aceites":"",
+      "contaminado_aceite":"",
+      "pcb":"",
+      "otros_respel":"",
+      "otros_respel_texto":""
+    }
+  ],
+  "table_incidencia_no_ejecucion": [
+    {
+      "incidencia_operacion":"",
+      "incidencia_seguridad":"",
+      "incidencia_climatologia":"",
+      "incidencia_recurso_humano":"",
+      "incidencia_tecnica":"",
+      "incidencia_materiales":"",
+      "incidencia_avifauna":"",
+      "incidencia_registro":"",
+      "incidencia_especie":"",
+      "incidencia_nidos":"",
+      "incidencia_observacion":"",
+      "residuos_generados_actividad":""
+    }
+  ],
+  "descripcion_trabajo_realizado":"",
+  "cantidad_ejecutada":"",
+  "registros":"",
+  "table_materiales_epp": [
+    {
+      "equipo_instalado_1":"",
+      "equipo_instalado_serial_1":"",
+      "herramientas_epp_1":"",
+      "herramientas_epp_estado_1":"",
+      "herramientas_epp_cantidad_1":"",
+      "equipo_prueba_1":"",
+      "equipo_prueba_serial_1":"",
+      "equipo_prueba_cantidad_1":""
+    }
+  ],
+  "table_equipos_desmontados": [
+    {
+      "equipo_desmontado_1":"",
+      "equipo_desmontado_serial_1":"",
+      "materiales_insumos_1":"",
+      "materiales_insumos_unidad_1":"",
+      "materiales_insumos_cantidad_1":""
+    }
+  ],
+  "firma_responsable_odt":"",
+  "firma_azt_sitio":"",
+  "firma_feje_trabajo_sitio":"",
+  "cierra_odt":"",
+  "fecha_cierre":"",
+  "odt_generada_n":""
+}
