@@ -199,7 +199,7 @@ $size=count($json_brigada['brigada']);
 						<option value="">FIRMA</option>
 						<?php 
 						for ($i=0; $i < $size; $i++) { 
-							echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+							echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 						}
 						?>
 					</select>
@@ -225,7 +225,7 @@ $size=count($json_brigada['brigada']);
 						<option value="">FIRMA</option>
 						<?php 
 						for ($i=0; $i < $size; $i++) { 
-							echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+							echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 						}
 						?>
 					</select>
@@ -253,7 +253,7 @@ $size=count($json_brigada['brigada']);
 						<option value="">FIRMA</option>
 						<?php 
 						for ($i=0; $i < $size; $i++) { 
-							echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+							echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 						}
 						?>
 					</select>
@@ -279,7 +279,7 @@ $size=count($json_brigada['brigada']);
 						<option value="">FIRMA</option>
 						<?php 
 						for ($i=0; $i < $size; $i++) { 
-							echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+							echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 						}
 						?>
 					</select>
@@ -399,7 +399,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">FIRMA</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -417,7 +417,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">FIRMA</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -441,7 +441,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">FIRMA</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -459,7 +459,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">FIRMA</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -483,7 +483,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">FIRMA</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -501,7 +501,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">FIRMA</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -525,7 +525,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">FIRMA</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -543,7 +543,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">FIRMA</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -567,7 +567,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">FIRMA</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -585,7 +585,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">FIRMA</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -676,7 +676,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">N/A</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -687,7 +687,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">N/A</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -698,7 +698,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">N/A</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -711,7 +711,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">N/A</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -722,7 +722,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">N/A</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -733,7 +733,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">N/A</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -746,7 +746,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">N/A</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -757,7 +757,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">N/A</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -768,7 +768,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">N/A</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -781,7 +781,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">N/A</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -792,7 +792,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">N/A</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -803,7 +803,7 @@ $size=count($json_brigada['brigada']);
 							<option value="">N/A</option>
 							<?php 
 							for ($i=0; $i < $size; $i++) { 
-								echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+								echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 							}
 							?>
 						</select>
@@ -1062,7 +1062,7 @@ $size=count($json_brigada['brigada']);
 						<option value="">N/A</option>
 						<?php 
 						for ($i=0; $i < $size; $i++) { 
-							echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+							echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 						}
 						?>
 					</select>
@@ -1073,7 +1073,7 @@ $size=count($json_brigada['brigada']);
 						<option value="">N/A</option>
 						<?php 
 						for ($i=0; $i < $size; $i++) { 
-							echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+							echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 						}
 						?>
 					</select>
@@ -1084,7 +1084,7 @@ $size=count($json_brigada['brigada']);
 						<option value="">N/A</option>
 						<?php 
 						for ($i=0; $i < $size; $i++) { 
-							echo '<option value="'.$json_brigada['brigada'][$i]['id'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
+							echo '<option value="'.$json_brigada['brigada'][$i]['nombre'].'">'.$json_brigada['brigada'][$i]['nombre'].'</option>';
 						}
 						?>
 					</select>
