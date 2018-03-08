@@ -177,7 +177,8 @@ class OdtController extends Controller{
     public function actionBrigada(){//muestra las odt de las brigadas
         $consulta="";
         $brigadaId=Yii::app()->user->getState('brigada');
-        $brigadas = Brigadas::model()->findByPk($brigadaId);
+
+        /*$brigadas = Brigadas::model()->findByPk($brigadaId);
 
         if(count($brigadas) > 0){
             $json=json_decode($brigadas->datos_json, true);
@@ -185,24 +186,24 @@ class OdtController extends Controller{
             
             for ($i=0; $i < $size; $i++) { 
                 if($i==0){
-                    $consulta="(fk_usuario_brigada=".$json['brigada'][$i]['id'];
+                    $consulta="fk_usuario_brigada=".$json['brigada'][$i]['id'];
                 }else{
                     $consulta.=" OR fk_usuario_brigada=".$json['brigada'][$i]['id'];
                 }
             }
         }else{
-            $consulta="(fk_usuario_brigada=".Yii::app()->user->id;
-        }
+            $consulta="fk_usuario_brigada=".Yii::app()->user->id;
+        }*/
+        $consulta = "fk_brigada = ".$brigadaId;
         
 
         $fecha = "fecha BETWEEN CURDATE() - INTERVAL 15 DAY AND CURDATE()";
         if($consulta != ''){
-            $consulta .= ")";
+            $consulta = "(" .$consulta . ")";
             $consulta .= " AND ".$fecha;
         }else{
             $consulta .= $fecha;
         }
-        
         $model = Odt::model()->findAll($consulta);
 
         if (isset($_POST['brigada'])) {

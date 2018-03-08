@@ -119,7 +119,7 @@ $(function() {
 	            bahia_ln: $('#bahia_ln').val(),
 	            lugar_trabajo: $('#lugar_trabajo').val(),
 	            brigada: $('#brigada').val(),
-	            operarioId: $('#brigada').val(),
+	            operarioId: $('#brigada option:selected').attr('operario_id'),
 	            cliente_id: $('#empresa').val()
 	        },
 	        beforeSend:  function() {

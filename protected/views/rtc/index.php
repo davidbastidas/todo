@@ -55,6 +55,9 @@ Yii::app()->params['breadcrumbs']=
 					<button class="btn btn-small btn-primary" onclick="consultar()">
 						Buscar
 					</button>
+					<button class="btn btn-small btn-success" onclick="excel()">
+						Excel
+					</button>
 				</div>
 				<hr>
 			</div>
@@ -121,6 +124,32 @@ function borrar(id){
 			}
 		}
 	});
+}
+function excel(){
+	var form = document.createElement("form");
+    var desde2 = document.createElement("input"); 
+    var hasta2 = document.createElement("input"); 
+    var brigada2 = document.createElement("input");  
+
+    form.method = "POST";
+    form.action = "<?php echo $nameProyect?>/Rtc/ListarPruebasExcel";   
+
+    desde2.value=$("#desde").val();
+    desde2.name="desde2";
+    form.appendChild(desde2);  
+
+    hasta2.value=$("#hasta").val();
+    hasta2.name="hasta2";
+    form.appendChild(hasta2);
+
+    brigada2.value=$("#brigada").val();
+    brigada2.name="brigada2";
+    form.appendChild(brigada2);
+
+    document.body.appendChild(form);
+
+    form.submit();
+    document.body.removeChild(form);
 }
 consultar(0);
 
