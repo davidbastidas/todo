@@ -241,7 +241,7 @@ class UsuariosController extends Controller
 					));
 			}
 		}else{
-			$model=Usuarios::model()->findAll('fk_tipo = 5 AND fk_brigada < 1');
+			$model=Usuarios::model()->findAll('fk_tipo = 5 AND (fk_brigada < 1 OR fk_brigada IS null)');
 			$this->render('brigadas/crear',array('model'=>$model));
 		}
 	}
