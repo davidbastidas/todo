@@ -119,6 +119,11 @@ window.jQuery || document.write("<script src='<?php  echo Yii::app() -> theme ->
 									array('label' => '<i class="icon-cog"></i> Facturacion', 'url' => array('/InfoFacturacion/index'), 'linkOptions'=> array('id'=>'info_facturacion',), 'visible' => !Yii::app()->user->isGuest,),
 							)),
 			);
+		}else if (Yii::app()->authManager->checkAccess('rol_analista_odt', Yii::app()->user->id)) {
+				$MENU=array(
+					array('label' => '<i class="icon-calendar"></i> ODT', 'url' => array('/odt/index')),
+					array('label' => '<i class="icon-dashboard"></i> RTC', 'url' => array('/rtc/index')),
+			);
 		}else if (Yii::app()->authManager->checkAccess('rol_digitador', Yii::app()->user->id)) {
 				$MENU=array(
 					array('label' => '<i class="icon-home home-icon"></i> Inicio', 'url' => array('/site/index')),
