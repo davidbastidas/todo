@@ -14,9 +14,11 @@ Yii::app()->params['breadcrumbs']=
 '</ul>'.
 '</div>';
 ?>
+<?php if(!Yii::app()->authManager->checkAccess('rol_administrador', Yii::app()->user->id)){?>
 <a class="btn btn-small btn-primary" href="<?php echo $nameProyect?>/odt/crear">
 	Crear
 </a>
+<?php }?>
 <div id="info"></div>
 <div class="widget-box">
 	<div class="widget-header">

@@ -25,12 +25,18 @@ Yii::app()->params['breadcrumbs']='<div class="breadcrumbs fixed" id="breadcrumb
 <div id="info"></div>
 <div class="row-fluid">
 	<div class="span12">
-		<div class="form-group">
-			<label for="nombre">Nombre</label>
-			<input type="text" placeholder="Nombre" id="nombre" name="nombre"/>
+		<div class="form-group span3">
+			<label for="nombre">Nombre de la brigada</label>
+			<input type="text" placeholder="Nombre" id="nombre" name="nombre" />
 		</div>
+		<div class="form-group span3">
+			<label for="nombre">Jefe de la brigada</label>
+			<input type="text" placeholder="Jefe" id="jefe" name="jefe"/>
+		</div>
+	</div>
+	<div class="span12">
 		<div class="form-inline">
-			<label for="usuario">Usuarios</label>
+			<label for="usuario">Operarios</label>
 
 			<select class="chzn-select" id="usuario" name="usuario" data-placeholder="Elija un usuario...">
 				<option value=""></option>
@@ -48,61 +54,61 @@ Yii::app()->params['breadcrumbs']='<div class="breadcrumbs fixed" id="breadcrumb
 <button class="btn btn-success guardar">Guardar Brigada</button>
 
 <script type="text/javascript">
-var usuario = new Object();
-$(function() {
-	$(".chzn-select").chosen();
-	$('.agregar').on('click', function () {
-		var usuarioInput = $("#usuario");
-		if (usuarioInput.val() != "") {
-			usuario.id = usuarioInput.val();
-			usuario.nombre = $("#usuario option:selected").text();
-			var pasa = true;
-			$('table > tbody  > tr').each(function() {
-				if($(this).find('.usuario_id').html() == usuario.id){
-					pasa = false;return;
+	var usuario = new Object();
+	$(function() {
+		$(".chzn-select").chosen();
+		$('.agregar').on('click', function () {
+			var usuarioInput = $("#usuario");
+			if (usuarioInput.val() != "") {
+				usuario.id = usuarioInput.val();
+				usuario.nombre = $("#usuario option:selected").text();
+				var pasa = true;
+				$('table > tbody  > tr').each(function() {
+					if($(this).find('.usuario_id').html() == usuario.id){
+						pasa = false;return;
+					}
+				});
+				if(pasa){
+					$("table").append("<tr>"+
+						"<td class='usuario_id'>"+usuario.id+"</td>"+
+						"<td class='usuario_nombre'>"+usuario.nombre+"</td>"+
+						"</tr>");
+				}else{
+					alert("Ya se encuentra en el listado.")
 				}
-			});
-			if(pasa){
-				$("table").append("<tr>"+
-					"<td class='usuario_id'>"+usuario.id+"</td>"+
-					"<td class='usuario_nombre'>"+usuario.nombre+"</td>"+
-					"</tr>");
-			}else{
-				alert("Ya se encuentra en el listado.")
 			}
+		});
+		$('.guardar').on('click', function () {
+			var array = [];
+			var objeto = null;
+			$('table > tbody  > tr').each(function() {
+				objeto = new Object();
+				objeto.id = $(this).find('.usuario_id').html();
+				objeto.nombre = $(this).find('.usuario_nombre').html();
+				array.push(objeto)
+			});
+			crearBrigada(JSON.stringify(array))
+		});
+		function crearBrigada(json){
+			$.ajax({
+	            url:"<?php echo $nameProyect?>/Usuarios/CrearBrigada",
+	            type:'POST',
+	            dataType:"json",
+	            cache:false,
+	            data: {
+	                nombre: $("#nombre").val(),
+	                json: json
+	            },
+	            beforeSend:  function() {
+	                 $("#info").html('<i class="icon-spinner icon-spin orange bigger-125"></i>');
+	            },
+	            success: function(response){
+	            	if(response.success){
+	            		location.href="<?php echo $nameProyect?>/usuarios/brigadas";
+	            	}
+	            	$("#info").html('');
+	            }
+		    });
 		}
 	});
-	$('.guardar').on('click', function () {
-		var array = [];
-		var objeto = null;
-		$('table > tbody  > tr').each(function() {
-			objeto = new Object();
-			objeto.id = $(this).find('.usuario_id').html();
-			objeto.nombre = $(this).find('.usuario_nombre').html();
-			array.push(objeto)
-		});
-		crearBrigada(JSON.stringify(array))
-	});
-	function crearBrigada(json){
-		$.ajax({
-            url:"<?php echo $nameProyect?>/Usuarios/CrearBrigada",
-            type:'POST',
-            dataType:"json",
-            cache:false,
-            data: {
-                nombre: $("#nombre").val(),
-                json: json
-            },
-            beforeSend:  function() {
-                 $("#info").html('<i class="icon-spinner icon-spin orange bigger-125"></i>');
-            },
-            success: function(response){
-            	if(response.success){
-            		location.href="<?php echo $nameProyect?>/usuarios/brigadas";
-            	}
-            	$("#info").html('');
-            }
-	    });
-	}
-});
 </script>

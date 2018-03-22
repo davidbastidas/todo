@@ -1,8 +1,5 @@
 <?php
 $array = json_decode( $formato->json, true );
-$brigada=Yii::app()->user->getState('brigada');
-$brigadas = Brigadas::model()->findByPk($brigada);
-$json_brigada=json_decode($brigadas->datos_json, true);
 ?>
 <h3 style="font-size:14px;width:100%;text-align:center;">
 	 INSPECCIÓN SERVICIOS AUXILIARES VAC

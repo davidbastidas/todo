@@ -32,7 +32,7 @@ class SiteController extends Controller {
 				$pruebas=Pruebas::model()->findAll("fk_estado!=5 AND fk_usuario>0 ORDER BY fecha DESC LIMIT 10");
 			}
 
-			if (Yii::app()->authManager->checkAccess('rol_analista_odt', Yii::app()->user->id)) {
+			if (Yii::app()->authManager->checkAccess('rol_administrador', Yii::app()->user->id) || Yii::app()->authManager->checkAccess('rol_analista_odt', Yii::app()->user->id)) {
 				$this->redirect(array('odt/index'));
 			}else if (Yii::app()->authManager->checkAccess('rol_brigada', Yii::app()->user->id)) {
 				$this->redirect(array('odt/brigada'));

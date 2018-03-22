@@ -1,10 +1,6 @@
 <?php
 $ruta_imagenes = Yii::app() -> params['imagenes_proyecto'];
 $array = json_decode( $formato->json, true );
-$brigada=Yii::app()->user->getState('brigada');
-$brigadas = Brigadas::model()->findByPk($brigada);
-$json_brigada=json_decode($brigadas->datos_json, true);
-$size=count($json_brigada['brigada']);
 $style_centro='style="text-align: center;"';
 ?>
 

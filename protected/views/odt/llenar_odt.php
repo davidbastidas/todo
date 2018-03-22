@@ -48,9 +48,12 @@ $size=count($json_brigada['brigada']);
 						<?php echo $value->nombre?>
 					</td>
 					<td>
-						<button class="btn btn-mini btn-primary" onclick="abrirFormato(<?php echo $value->id?>);">
-							<i class="icon-edit bigger-120"></i>
-						</button>
+						<?php 
+						if(Yii::app()->authManager->checkAccess('rol_brigada', Yii::app()->user->id)){?>
+				            <button class="btn btn-mini btn-primary" onclick="abrirFormato(<?php echo $value->id?>);">
+								<i class="icon-edit bigger-120"></i>
+							</button>
+				       	<?php } ?>
 						<a class="btn btn-mini btn-danger" href="<?php echo $nameProyect?>/Odt/imprimirFormato/<?php echo $value->id?>" target="_blank">
 							<i class="icon-print bigger-120"></i>
 						</a>
@@ -67,7 +70,11 @@ $size=count($json_brigada['brigada']);
 
 		<h4>Pruebas a Equipos</h4>
 		<hr>
-		<button class="btn btn-small btn-primary" onclick="nuevaPrueba()">Nueva Prueba</button><br><br>
+		<?php 
+		if(Yii::app()->authManager->checkAccess('rol_brigada', Yii::app()->user->id)){?>
+            <button class="btn btn-small btn-primary" onclick="nuevaPrueba()">Nueva Prueba</button>
+       	<?php } ?>
+		<br><br>
 		<table id="sample-table-1" class="table table-striped table-bordered table-hover">
 			<thead>
 				<tr>
@@ -110,25 +117,29 @@ $size=count($json_brigada['brigada']);
 	<div class="span6">
 		<h4>Otros Formatos</h4>
 		<hr>
-		<div class="form-inline">
-			<select id="otros_formatos">
-				<option value="">[Seleecione un formato]</option>
-				<option value="1">MO.00142.CO-MA-FO.01 (Mantenimiento Banco De Baterias)</option>
-				<option value="2">MO.00142.CO-MA-FO.02 (Inspeccion Tableros PCM)</option>
-				<option value="3">MO.00142.CO-MA-FO.05 (Inspeccion Seccionador)</option>
-				<option value="4">MO.00142.CO-MA-FO.06 (Inspeccion Interruptor)</option>
-				<option value="5">MO.00142.CO-MA-FO.07 (Inspeccion Servicios Aux. VDC)</option>
-				<option value="6">MO.00142.CO-MA-FO.08 (Inspeccion Servicios Aux. VAC)</option>
-				<option value="7">MO.00142.CO-MA-FO.09 (Inspeccion Tc y Tp)</option>
-				<option value="8">MO.00142.CO-MA-FO.10 (Inspeccion Pararrayo)</option>
-				<option value="9">MO.00142.CO-MA-FO.11 (Inspeccion Fusibles)</option>
-				<option value="10">MO.00142.CO-MA-FO.14 (Inspeccion Encapsulada)</option>
-				<option value="11">MO.00142.CO-MA-FO.15 (Inspeccion Instalaciones Locativas)</option>
-				<option value="12">MO.00142.CO-MA-FO.18 (Inspeccion Rutinaria Operador Movil)</option>
-			</select>
-			<button  class="btn btn-small btn-primary" id="agregar_formato">Agregar</button>
-		</div>
-		<br>
+		<?php 
+		if(Yii::app()->authManager->checkAccess('rol_brigada', Yii::app()->user->id)){?>
+			<div class="form-inline">
+				<select id="otros_formatos">
+					<option value="">[Seleecione un formato]</option>
+					<option value="1">MO.00142.CO-MA-FO.01 (Mantenimiento Banco De Baterias)</option>
+					<option value="2">MO.00142.CO-MA-FO.02 (Inspeccion Tableros PCM)</option>
+					<option value="3">MO.00142.CO-MA-FO.05 (Inspeccion Seccionador)</option>
+					<option value="4">MO.00142.CO-MA-FO.06 (Inspeccion Interruptor)</option>
+					<option value="5">MO.00142.CO-MA-FO.07 (Inspeccion Servicios Aux. VDC)</option>
+					<option value="6">MO.00142.CO-MA-FO.08 (Inspeccion Servicios Aux. VAC)</option>
+					<option value="7">MO.00142.CO-MA-FO.09 (Inspeccion Tc y Tp)</option>
+					<option value="8">MO.00142.CO-MA-FO.10 (Inspeccion Pararrayo)</option>
+					<option value="9">MO.00142.CO-MA-FO.11 (Inspeccion Fusibles)</option>
+					<option value="10">MO.00142.CO-MA-FO.14 (Inspeccion Encapsulada)</option>
+					<option value="11">MO.00142.CO-MA-FO.15 (Inspeccion Instalaciones Locativas)</option>
+					<option value="12">MO.00142.CO-MA-FO.18 (Inspeccion Rutinaria Operador Movil)</option>
+				</select>
+	            <button  class="btn btn-small btn-primary" id="agregar_formato">Agregar</button>
+            </div>
+            <br>
+       	<?php } ?>
+		
 		<table id="tabla_otro_formato" class="table table-striped table-bordered table-hover">
 			<thead>
 				<tr>
@@ -1117,7 +1128,10 @@ $size=count($json_brigada['brigada']);
 				</td>
 			</tr>
 		</table>
-		<button class="btn btn-large btn-success" onclick="crearJson()">Guardar</button>
+		<?php 
+		if(Yii::app()->authManager->checkAccess('rol_brigada', Yii::app()->user->id)){?>
+            <button class="btn btn-large btn-success" onclick="crearJson()">Guardar</button>
+       	<?php } ?>
 	</div>
 </div>
 

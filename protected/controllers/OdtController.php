@@ -25,7 +25,12 @@ class OdtController extends Controller{
 		);
 	}
 	public function actionIndex(){
-        $brigadas = Brigadas::model()->findAll('coordinador='.Yii::app()->user->id);
+        if(Yii::app()->authManager->checkAccess('rol_administrador', Yii::app()->user->id)){
+            $brigadas = Brigadas::model()->findAll();
+        }else{
+            $brigadas = Brigadas::model()->findAll('coordinador='.Yii::app()->user->id);
+        }
+        
 		$this -> render('index',array('brigadas'=>$brigadas));
 	}
 	public function actionListarPruebas(){

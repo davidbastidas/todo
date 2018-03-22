@@ -1,9 +1,5 @@
 <?php
 $array = json_decode( $formato->json, true );
-$brigada=Yii::app()->user->getState('brigada');
-$brigadas = Brigadas::model()->findByPk($brigada);
-$json_brigada=json_decode($brigadas->datos_json, true);
-$size=count($json_brigada['brigada']);
 ?>
 
 <table class="border" style="width:100%">

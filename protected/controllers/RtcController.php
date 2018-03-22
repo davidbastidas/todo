@@ -13,7 +13,7 @@ class RtcController extends Controller{
 	public function accessRules(){
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index', 'ListarPruebas', 'ListarPruebasExcel'),
+				'actions'=>array('index', 'ListarPruebas', 'ListarPruebasExcel', 'Informe'),
 
 				'roles' => array('rol_administrador','rol_digitador','rol_consultas','rol_analista_odt','rol_brigada'),
 			),
@@ -23,7 +23,11 @@ class RtcController extends Controller{
 		);
 	}
 	public function actionIndex(){
-        $brigadas = Brigadas::model()->findAll('coordinador='.Yii::app()->user->id);
+        if(Yii::app()->authManager->checkAccess('rol_administrador', Yii::app()->user->id)){
+            $brigadas = Brigadas::model()->findAll();
+        }else{
+            $brigadas = Brigadas::model()->findAll('coordinador='.Yii::app()->user->id);
+        }
 		$this -> render('index',array('brigadas'=>$brigadas));
 	}
 	public function actionListarPruebas(){
@@ -201,6 +205,10 @@ class RtcController extends Controller{
         $objWriter->save('php://output');
         exit();
 	}
+
+    public function actionInforme(){
+        $this -> render('informe',array());
+    }
 }
 
 

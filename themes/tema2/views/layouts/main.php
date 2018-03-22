@@ -67,7 +67,8 @@ window.jQuery || document.write("<script src='<?php  echo Yii::app() -> theme ->
 		$MENU=array();
 		if (Yii::app()->authManager->checkAccess('rol_administrador', Yii::app()->user->id)) {
 			$MENU=array(
-					array('label' => '<i class="icon-home home-icon"></i> Inicio', 'url' => array('/site/index')),
+					array('label' => '<i class="icon-calendar"></i> ODT', 'url' => array('/odt/index')),
+					array('label' => '<i class="icon-dashboard"></i> RTC', 'url' => array('/rtc/index')),
 					array('label' => '<i class="icon-desktop"></i><span class="menu-text">Resursos</span><b class="arrow icon-angle-down"></b>',
 							'url' => array('/#'),
 							'visible' => !Yii::app()->user->isGuest,
@@ -78,9 +79,9 @@ window.jQuery || document.write("<script src='<?php  echo Yii::app() -> theme ->
 							),
 							'itemOptions' => array(),
 							'items' => array(
-									array('label' => '<i class="icon-file-alt"></i> Nueva Prueba', 'url' => array('/Pruebas/ubicacion')),
 									array('label' => '<i class="icon-beaker"></i> PreInformes', 'url' => array('/Preinformes/index'), 'visible' => !Yii::app()->user->isGuest,),
 									array('label' => '<i class="icon-bar-chart"></i> Informes', 'url' => array('/Informes/index'), 'visible' => !Yii::app()->user->isGuest,),
+									array('label' => '<i class="icon-file-alt"></i> Informe Grafico', 'url' => array('/Informes/grafico')),
 									array('label' => '<i class="icon-bar-chart"></i> Pruebas Aceite', 'url' => array('/Aceite/index'), 'visible' => !Yii::app()->user->isGuest,),
 							)),
 					array('label' => '<i class="icon-group"></i><span class="menu-text">Admin</span><b class="arrow icon-angle-down"></b>',
