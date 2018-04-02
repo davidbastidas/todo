@@ -1,7 +1,7 @@
 <?php
 $nameProyect = "/" . Yii::app() -> params['nameproyect'];
 $this->breadcrumbs=array(
-	'Item de Facturacion'=>array('index'),
+	'Vehiculos'=>array('index'),
 	'Crear',
 );
 
@@ -20,7 +20,7 @@ $this->menu=array(
 			</span>
 		</li>
 		<li class="active">
-			<a href="'.$nameProyect.'/InfoFacturacion/index">Item de Facturacion</a>
+			<a href="'.$nameProyect.'/Vehiculos/index">Vehiculos</a>
 			<span class="divider">
 				 <i class="icon-angle-right arrow-icon"></i>
 			</span>
@@ -31,7 +31,7 @@ $this->menu=array(
 ';?>
 <div class="widget-box">
 	<div class="widget-header">
-		<h4>Crear Item de Facturacion</h4>
+		<h4>Crear Vehiculos</h4>
 	</div>
 	<div class="widget-body">
 		<div class="widget-main no-padding">

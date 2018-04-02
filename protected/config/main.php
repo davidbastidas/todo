@@ -105,8 +105,8 @@ return array(
         'ruta_fotos_interruptor_potencia' => 'C:/wamp/www/archivos/fotos_interruptor_potencia/',//anexos interruptores
         'ruta_fotos_corriente_exitacion_tc' => 'C:/wamp/www/archivos/fotos_corriente_exitacion_tc/',//anexos corriente exitacion
         'ruta_fotos_equipos' => 'C:/wamp/www/archivos/fotos_equipos/',//fotos de cada equipo
-        'nameproyect' => 'proyecto', //proyectos/proyecto_ap_atlantico
-        'imagenes_proyecto' => 'C:/wamp/www/proyecto/images/',
+        'nameproyect' => 'todo', //todos/todo_ap_atlantico
+        'imagenes_todo' => 'C:/wamp/www/todo/images/',
         'server' => '127.0.0.1',
         'db' => 'ap_equipos',
         'userdb' => 'andiceco_gestion',

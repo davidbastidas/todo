@@ -14,7 +14,7 @@ Yii::app()->params['breadcrumbs']=
 	'</ul>'.
 '</div>';
 ?>
-<a class="btn btn-small btn-primary" href="<?php echo $nameProyect?>/Vehiculo/formatos">
+<a class="btn btn-small btn-primary" href="<?php echo $nameProyect?>/Vehiculos/formatos">
 	<i class="fa fa-car fa-2x"></i>
     Vehiculo
 </a>

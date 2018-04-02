@@ -12,9 +12,17 @@
 		<?php echo $form->labelEx($model,'serial_id'); ?>
 		<?php echo $form->textField($model,'serial_id',array('size'=>50,'maxlength'=>50)); ?>
 		<?php echo $form->error($model,'serial_id'); ?>
+
 		<?php echo $form->labelEx($model,'tipo'); ?>
-		<?php echo $form->textField($model,'tipo',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->dropDownList($model,'tipo', array(
+														'PRUEBA' => 'PRUEBA', 
+														'MEDICIÓN'=>'MEDICIÓN',
+														'SEGURIDAD'=>'SEGURIDAD',
+														'ALTURAS'=>'ALTURAS',
+														'OTRO'=>'OTRO'
+													), array('empty' => '[SELECCIONE EL TIPO]','class'=>'form-control')); ?>
 		<?php echo $form->error($model,'tipo'); ?>
+
 		<?php echo $form->labelEx($model,'descripcion'); ?>
 		<?php echo $form->textArea($model,'descripcion',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'descripcion'); ?>

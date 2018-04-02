@@ -42,7 +42,7 @@ Yii::app()->params['breadcrumbs']=
 							<i class="icon-edit bigger-120"></i>
 						</button>
 						<?php if($value->nombre=="PARTE DE VEHICULO"){ ?>
-						<a class="btn btn-mini btn-danger" href="<?php echo $nameProyect?>/Vehiculo/imprimirFormato/<?php echo $value->id?>" target="_blank">
+						<a class="btn btn-mini btn-danger" href="<?php echo $nameProyect?>/Vehiculos/imprimirFormato/<?php echo $value->id?>" target="_blank">
 							<i class="icon-print bigger-120"></i>
 						</a>
 						<?php } ?>
@@ -123,7 +123,7 @@ $(function() {
 	});
 });
 function abrirFormato(id){
-	location.href="<?php echo $nameProyect?>/Vehiculo/verFormato/"+id;
+	location.href="<?php echo $nameProyect?>/Vehiculos/verFormato/"+id;
 }
 function preoperacional(){
 	var fecha1 = moment($('#fecha_desde').val());
@@ -135,7 +135,7 @@ function preoperacional(){
 		diff=fecha2.diff(fecha1, 'days')
 		console.log(diff)
 		if(diff==6){
-			location.href="<?php echo $nameProyect?>/Vehiculo/ImprimirFormato/0?desde="+$('#fecha_desde').val()+"&hasta="+$('#fecha_hasta').val()+"&vehiculo="+$('#vehiculo').val();
+			location.href="<?php echo $nameProyect?>/Vehiculos/ImprimirFormato/0?desde="+$('#fecha_desde').val()+"&hasta="+$('#fecha_hasta').val()+"&vehiculo="+$('#vehiculo').val();
 		}else{
 			alert("Debe elegir 7 dias entre las fechas")
 		}

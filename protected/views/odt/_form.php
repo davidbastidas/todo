@@ -58,8 +58,8 @@
 
 	<div class="span4">
 		<div class="form-group">
-			<label for="categoria">Categoria</label>
-			<select name="categoria" id="categoria">
+			<label for="categoria_odt">Categoria</label>
+			<select name="categoria_odt" id="categoria_odt">
 				<option value="0">[Elegir Categoria]</option>
 				<option value="PREDICTIVO">PREDICTIVO</option>
 				<option value="PREVENTIVO">PREVENTIVO</option>

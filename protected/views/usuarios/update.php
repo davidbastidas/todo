@@ -30,7 +30,8 @@ $this->menu=array(
 		<li>Actualizar</li>
 	</ul>
 </div>
-';?><div class="widget-box">
+';?>
+<div class="widget-box">
 	<div class="widget-header">
 		<h4>Actualizar Usuarios</h4>
 	</div>

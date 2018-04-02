@@ -1,12 +1,14 @@
 <?php
 $nameProyect = "/" . Yii::app() -> params['nameproyect'];
 $this->breadcrumbs=array(
-	'Item de Facturacion'=>array('index'),
-	'Crear',
+	'Vehiculos'=>array('index'),
+	$model->id=>array('view','id'=>$model->id),
+	'Actualizar',
 );
-
 $this->menu=array(
 	array('label'=>'Listar', 'url'=>array('index')),
+	array('label'=>'Crear', 'url'=>array('create')),
+	array('label'=>'Ver', 'url'=>array('view', 'id'=>$model->id)),
 	array('label'=>'Administrar', 'url'=>array('admin')),
 );
 ?>
@@ -20,23 +22,21 @@ $this->menu=array(
 			</span>
 		</li>
 		<li class="active">
-			<a href="'.$nameProyect.'/InfoFacturacion/index">Item de Facturacion</a>
+			<a href="'.$nameProyect.'/Vehiculos/index">Vehiculos</a>
 			<span class="divider">
 				 <i class="icon-angle-right arrow-icon"></i>
 			</span>
 		</li>
-		<li>Crear</li>
+		<li>Actualizar</li>
 	</ul>
 </div>
 ';?>
 <div class="widget-box">
 	<div class="widget-header">
-		<h4>Crear Item de Facturacion</h4>
+		<h4>Actualizar Vehiculos</h4>
 	</div>
 	<div class="widget-body">
 		<div class="widget-main no-padding">
 			<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>		</div>
 	</div>
 </div>
-
-

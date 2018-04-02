@@ -110,6 +110,7 @@ window.jQuery || document.write("<script src='<?php  echo Yii::app() -> theme ->
 							'itemOptions' => array(),
 							'items' => array(
 									array('label' => '<i class="icon-cog"></i> Brigadas', 'url' => array('/Usuarios/brigadas')),
+									array('label' => '<i class="icon-cog"></i> Vehiculos', 'url' => array('/Vehiculos/index')),
 									array('label' => '<i class="icon-cog"></i> Pep', 'url' => array('/InfoPep/index')),
 									array('label' => '<i class="icon-cog"></i> Personas', 'url' => array('/InfoPersonas/index'), 'visible' => !Yii::app()->user->isGuest,),
 									array('label' => '<i class="icon-cog"></i> Computadores', 'url' => array('/InfoComputadores/index'), 'linkOptions'=> array('id'=>'info_computadores',), 'visible' => !Yii::app()->user->isGuest,),

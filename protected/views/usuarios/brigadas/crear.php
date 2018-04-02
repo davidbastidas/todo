@@ -30,16 +30,42 @@ Yii::app()->params['breadcrumbs']='<div class="breadcrumbs fixed" id="breadcrumb
 			<input type="text" placeholder="Nombre" id="nombre" name="nombre" />
 		</div>
 		<div class="form-group span3">
+			<label for="descripcion">Descripcion</label>
+			<input type="text" placeholder="Descripcion" id="descripcion" name="descripcion"/>
+		</div>
+		<div class="form-group span3">
+			<label for="ubicacion">Ubicacion</label>
+			<input type="text" placeholder="Ubicacion" id="ubicacion" name="ubicacion"/>
+		</div>
+		<div class="form-group span3">
+			<label for="pep">PEP</label>
+			<input type="text" placeholder="PEP" id="pep" name="pep"/>
+		</div>
+	</div>
+</div>
+<div class="row-fluid">
+	<div class="span12">
+		<div class="form-group span3">
 			<label for="nombre">Jefe de la brigada</label>
 			<input type="text" placeholder="Jefe" id="jefe" name="jefe"/>
 		</div>
+		<div class="form-group span3">
+			<label for="vehiculo">Vehiculo</label>
+			<input type="text" placeholder="Vehiculo" id="vehiculo" name="vehiculo"/>
+		</div>
+		<div class="form-group span3">
+			<label for="telefono">Telefono</label>
+			<input type="text" placeholder="Telefono" id="telefono" name="telefono"/>
+		</div>
 	</div>
+</div>
+<div class="row-fluid">
 	<div class="span12">
 		<div class="form-inline">
 			<label for="usuario">Operarios</label>
 
-			<select class="chzn-select" id="usuario" name="usuario" data-placeholder="Elija un usuario...">
-				<option value=""></option>
+			<select class="form-class" id="usuario" name="usuario" data-placeholder="Elija un usuario...">
+				<option value="">Seleccione el operario</option>
 				<?php foreach ($model as $key) {?>
 				<option value="<?php echo $key->id ?>" ><?php echo $key->nombre ?></option>
 				<?php }?> 
@@ -56,7 +82,6 @@ Yii::app()->params['breadcrumbs']='<div class="breadcrumbs fixed" id="breadcrumb
 <script type="text/javascript">
 	var usuario = new Object();
 	$(function() {
-		$(".chzn-select").chosen();
 		$('.agregar').on('click', function () {
 			var usuarioInput = $("#usuario");
 			if (usuarioInput.val() != "") {
@@ -72,10 +97,12 @@ Yii::app()->params['breadcrumbs']='<div class="breadcrumbs fixed" id="breadcrumb
 					$("table").append("<tr>"+
 						"<td class='usuario_id'>"+usuario.id+"</td>"+
 						"<td class='usuario_nombre'>"+usuario.nombre+"</td>"+
+						"<td class='remover'><a href='#' onclick='remover(this)'><i class='fa fa-remove'></i></a></td>"+
 						"</tr>");
 				}else{
 					alert("Ya se encuentra en el listado.")
 				}
+				$("#usuario option:selected").remove();
 			}
 		});
 		$('.guardar').on('click', function () {
@@ -97,6 +124,7 @@ Yii::app()->params['breadcrumbs']='<div class="breadcrumbs fixed" id="breadcrumb
 	            cache:false,
 	            data: {
 	                nombre: $("#nombre").val(),
+	                jefe: $("#jefe").val(),
 	                json: json
 	            },
 	            beforeSend:  function() {
@@ -110,5 +138,15 @@ Yii::app()->params['breadcrumbs']='<div class="breadcrumbs fixed" id="breadcrumb
 	            }
 		    });
 		}
+
 	});
+	function remover(nodo){
+		var tr = $(nodo).parent().parent();
+		//agregarlo al select
+		$('#usuario').append($('<option>', {
+		    value: tr.find('.usuario_id').html(),
+		    text: tr.find('.usuario_nombre').html()
+		}));
+		tr.remove();
+	}
 </script>

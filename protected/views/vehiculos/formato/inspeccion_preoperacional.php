@@ -11,7 +11,7 @@ Yii::app()->params['breadcrumbs']=
 			'</span>'.
 		'</li>'.
 		'<li>'.
-			'<a href="'.$nameProyect.'/Vehiculo/formatos">Formato Vehiculos</a>'.
+			'<a href="'.$nameProyect.'/Vehiculos/formatos">Formato Vehiculos</a>'.
 			'<span class="divider">'.
 				 '<i class="icon-angle-right arrow-icon"></i>'.
 			'</span>'.
@@ -1077,7 +1077,7 @@ function crearJson(){
 	json+='}';
 	//console.log(json);
 	$.ajax({
-        url:"<?php echo $nameProyect?>/Vehiculo/ActualizarFormato",
+        url:"<?php echo $nameProyect?>/Vehiculos/ActualizarFormato",
         type:'POST',
         dataType:"json",
         cache:false,
@@ -1091,7 +1091,7 @@ function crearJson(){
         success: function(data){
         	
         	if(data.update=="1" || data.update=="0"){
-        		location.href="<?php echo $nameProyect?>/vehiculo/formatos";
+        		location.href="<?php echo $nameProyect?>/vehiculos/formatos";
         	}else{
         		$(".info").html('<div class="alert alert-error">'+
         			'<button class="close" data-dismiss="alert" type="button">'+
@@ -1113,10 +1113,10 @@ function cargarDatos(){
 	var text='<?php echo $formato->json?>';
 	if(text.length>0){
 		var data = JSON.parse('<?php echo $formato->json?>');
-		$("#placa").val(data.placa)
-		$("#marca").val(data.marca)
+		$("#placa").val('<?php echo $formato->fkVehiculo->matricula ?>')
+		$("#marca").val('<?php echo $formato->fkVehiculo->marca ?>')
 		$("#linea").val(data.linea)
-		$("#modelo").val(data.modelo)
+		$("#modelo").val('<?php echo $formato->fkVehiculo->modelo_anio ?>')
 		$("#tarjeta_propiedad").val(data.tarjeta_propiedad)
 		$("#tarjeta_operacion").val(data.tarjeta_operacion)
 		$("#gps").val(data.gps)

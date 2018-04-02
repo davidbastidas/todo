@@ -225,6 +225,7 @@ class UsuariosController extends Controller
 			//insertar
 			$model=new Brigadas;
 			$model->nombre = $_POST['nombre'];
+			$model->jefe = $_POST['jefe'];
 			$model->datos_json = '{"brigada":'.$_POST['json'].'}';
 			$model->estado = 1;
 			if($model->save(false)){

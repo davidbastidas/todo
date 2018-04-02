@@ -156,14 +156,17 @@ class RtcController extends Controller{
                     ->setCellValue('L1', 'TIPO')
                     ->setCellValue('M1', 'N.ODT')
                     ->setCellValue('N1', 'CATEGORIA')
-                    ->setCellValue('O1', 'PAIS')
-                    ->setCellValue('P1', 'DEPARTAMENTO')
+                    ->setCellValue('O1', 'DEPARTAMENTO')
+                    ->setCellValue('P1', 'MUNICIPIO')
                     ->setCellValue('Q1', 'UBICACION')
                     ->setCellValue('R1', 'ELEMENTO')
                     ->setCellValue('S1', 'DESCRIPCIÓN CORTA ACTIVIDAD')
                     ->setCellValue('T1', 'INFORME')
                     ->setCellValue('U1', 'EQUIPO')
-                    ->setCellValue('V1', 'COD. PRUEBA')
+                    ->setCellValue('V1', 'SERIAL')
+                    ->setCellValue('W1', 'COD. ACCIÓN')
+                    ->setCellValue('X1', 'TIPO DE ACCION (Item de cobro)')
+                    ->setCellValue('Y1', 'Cantidad')
                     ;
         
         $row=2;
@@ -193,6 +196,9 @@ class RtcController extends Controller{
                     ->setCellValue('T'.$row, '')
                     ->setCellValue('U'.$row, $json['nombre_eq'])
                     ->setCellValue('V'.$row, '')
+                    ->setCellValue('W'.$row, '')
+                    ->setCellValue('X'.$row, '')
+                    ->setCellValue('Y'.$row, '')
                     ;
                     $row++;
         }

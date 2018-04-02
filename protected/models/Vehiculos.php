@@ -6,7 +6,9 @@
  * The followings are the available columns in table 'vehiculos':
  * @property integer $id
  * @property string $matricula
- * @property string $json
+ * @property string $marca
+ * @property string $modelo_anio
+ * @property string $propietario
  */
 class Vehiculos extends CActiveRecord
 {
@@ -37,10 +39,9 @@ class Vehiculos extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('matricula', 'length', 'max'=>100),
-			array('json', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, matricula, json', 'safe', 'on'=>'search'),
+			array('id, matricula, marca, modelo_anio, propietario', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -61,9 +62,11 @@ class Vehiculos extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
+			'id' => 'Id',
 			'matricula' => 'Matricula',
-			'json' => 'Json',
+			'marca' => 'Marca',
+			'modelo_anio' => 'Año del modelo',
+			'propietario' => 'Propietario',
 		);
 	}
 
@@ -80,7 +83,9 @@ class Vehiculos extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('matricula',$this->matricula,true);
-		$criteria->compare('json',$this->json,true);
+		$criteria->compare('marca',$this->marca,true);
+		$criteria->compare('modelo_anio',$this->modelo_anio,true);
+		$criteria->compare('propietario',$this->propietario,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

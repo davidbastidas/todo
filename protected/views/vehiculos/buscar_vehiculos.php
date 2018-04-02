@@ -59,7 +59,7 @@ function usar(){
 	my_form=document.createElement('form');
 	my_form.name='myForm';
 	my_form.method='POST';
-	my_form.action="<?php echo $nameProyect?>/Vehiculo/UsarVehiculo";
+	my_form.action="<?php echo $nameProyect?>/Vehiculos/UsarVehiculo";
 
 	my_tb=document.createElement('input');
 	my_tb.type='text';
