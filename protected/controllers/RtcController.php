@@ -212,8 +212,13 @@ class RtcController extends Controller{
         exit();
 	}
 
-    public function actionInforme(){
-        $this -> render('informe',array());
+    /*
+    @id es el indicativo de la odt
+    */
+    public function actionInforme($id){
+        $model = InfoFacturacion::model()->findAll();
+        $odt = Odt::model()->findByPk($id);
+        $this -> render('informe',array('model' => $model, 'odt' => $odt));
     }
 }
 

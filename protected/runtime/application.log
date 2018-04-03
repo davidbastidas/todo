@@ -3406,3 +3406,408 @@ Stack trace:
 REQUEST_URI=/todo/images/logo_applus.png
 HTTP_REFERER=http://localhost/todo/odt/llenarodt/19
 ---
+2018/04/03 20:17:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/odt/index
+---
+2018/04/03 20:17:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/index
+---
+2018/04/03 20:21:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/informe/18
+---
+2018/04/03 20:35:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/informe/18
+---
+2018/04/03 20:36:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/informe/18
+---
+2018/04/03 20:38:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/informe/18
+---
+2018/04/03 20:39:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/informe/18
+---
+2018/04/03 20:39:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/informe/18
+---
+2018/04/03 20:41:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/odt/index
+---
+2018/04/03 20:41:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/odt/llenarodt/13
+---
+2018/04/03 20:50:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/informe/18
+---
+2018/04/03 20:50:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/informe/18
+---
+2018/04/03 20:50:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/index
+---
+2018/04/03 20:51:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/informe/18
+---
+2018/04/03 20:51:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/index
+---
+2018/04/03 20:51:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/odt/llenarodt/18
+---
+2018/04/03 20:52:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.yiiactiveform.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.yiiactiveform.js
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/03 20:52:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/03 20:52:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus2.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus2.png
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/03 20:52:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.yiiactiveform.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.yiiactiveform.js
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/03 20:52:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/odt/brigada
+---
+2018/04/03 20:52:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/03 20:52:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.yiiactiveform.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.yiiactiveform.js
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/03 20:52:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus2.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus2.png
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/03 20:52:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/odt/index
+---
+2018/04/03 20:53:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/odt/llenarodt/13
+---
+2018/04/03 20:53:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/odt/llenarodt/13
+---
+2018/04/03 20:53:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/03 20:53:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.yiiactiveform.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.yiiactiveform.js
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/03 20:53:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus2.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus2.png
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/03 20:54:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/odt/brigada
+---
+2018/04/03 20:54:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/odt/llenarodt/18
+---
+2018/04/03 20:54:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/odt/brigada
+---
+2018/04/03 20:56:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/03 20:56:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.yiiactiveform.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.yiiactiveform.js
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/03 20:56:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus2.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus2.png
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/03 20:56:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/odt/index
+---
+2018/04/03 20:56:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/index
+---
+2018/04/03 20:57:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/odt/llenarodt/18
+---
+2018/04/03 20:57:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/informe/18
+---
+2018/04/03 21:07:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/informe/18
+---
+2018/04/03 21:07:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/informe/18
+---
+2018/04/03 21:09:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/informe/18
+---
+2018/04/03 21:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/informe/18
+---
+2018/04/03 21:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/informe/18
+---
