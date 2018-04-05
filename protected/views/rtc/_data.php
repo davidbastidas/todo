@@ -1,13 +1,18 @@
+<?php $dias = array('Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo')?>
 <table class="table table-bordered">
 	<thead>
 		<tr>
-			<th class="text-center">ODT</th>
 			<th class="text-center">Fecha</th>
-			<th class="text-center">Subestacion</th>
+			<th class="text-center">Dia</th>
+			<th class="text-center">Inicio</th>
+			<th class="text-center">Fin</th>
+			<th class="text-center">ODT</th>
 			<th class="text-center">Brigada</th>
+			<th class="text-center">Subestacion</th>
 			<th class="text-center">Jefe brigada</th>
 			<th class="text-center">Pruebas</th>
-			<th class="text-center">Informe y Facturacion</th>
+			<th class="text-center">Informe</th>
+			<th class="text-center">Facturacion</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -16,15 +21,25 @@
 		foreach ($model as $value) {?>
 		<tr>
 			<td class="text-center">
-				<?php echo $value->numero?>
+				<?php 
+				$date = new DateTime($value->fecha);
+				echo $date->format('Y-m-d'); ?>
 			</td>
 			<td class="text-center">
 				<?php 
 				$date = new DateTime($value->fecha);
-				echo $date->format('Y-m-d')." ".$value->hora_prevista_inicio; ?>
+				echo $dias[$date->format('N')-1]; ?>
 			</td>
 			<td class="text-center">
-				<?php echo $value->fk_equipo_fk->fk_subestacion_e->fk_ubicacion_s->nombre . ' - ' . $value->fk_equipo_fk->fk_subestacion_e->nombre?>
+				<?php 
+				echo $value->hora_prevista_inicio; ?>
+			</td>
+			<td class="text-center">
+				<?php 
+				echo $value->hora_prevista_fin; ?>
+			</td>
+			<td class="text-center">
+				<?php echo $value->numero?>
 			</td>
 			<td class="text-center">
 				<?php 
@@ -34,7 +49,11 @@
 					echo 'Sin brigada';
 				}
 				?>
+			</td>			
+			<td class="text-center">
+				<?php echo $value->fk_equipo_fk->fk_subestacion_e->fk_ubicacion_s->nombre . ' - ' . $value->fk_equipo_fk->fk_subestacion_e->nombre?>
 			</td>
+			
 			<td class="text-center">
 				<?php echo ''?>
 			</td>
@@ -45,6 +64,11 @@
 			</td>
 			<td class="text-center">
 				<a class="btn btn-info btn-small" href="<?php echo $nameProyect.'/rtc/informe/'.$value->id?>">
+                    <i class="fa fa-wrench bigger-120"></i>
+                </a>
+			</td>
+			<td class="text-center">
+				<a class="btn btn-info btn-small" href="<?php echo $nameProyect.'/rtc/facturacion/'.$value->id?>">
                     <i class="fa fa-wrench bigger-120"></i>
                 </a>
 			</td>

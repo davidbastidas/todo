@@ -13,9 +13,28 @@
 		<?php echo $form->textField($model,'item',array('size'=>50,'maxlength'=>50)); ?>
 		<?php echo $form->error($model,'item'); ?>
 
+		<?php echo $form->labelEx($model,'prefijo'); ?>
+		<?php echo $form->textField($model,'prefijo',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->error($model,'prefijo'); ?>
+
 		<?php echo $form->labelEx($model,'descripcion'); ?>
 		<?php echo $form->textArea($model,'descripcion',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'descripcion'); ?>
+
+		<?php echo $form->labelEx($model,'valor_un'); ?>
+		<?php echo $form->textField($model,'valor_un',array('size'=>20,'maxlength'=>20)); ?>
+		<?php echo $form->error($model,'valor_un'); ?>
+
+		<?php echo $form->labelEx($model,'unidad'); ?>
+		<?php echo $form->dropDownList($model,'unidad', array(
+														'Mes' => 'Mes', 
+														'Hora' => 'Hora', 
+														'Dia' => 'Dia', 
+														'Global' => 'Global', 
+														'KM' => 'KM', 
+														'UN'=>'UN'
+									), array('empty' => '[SELECCIONE EL ESTADO]','class'=>'form-control')); ?>
+		<?php echo $form->error($model,'unidad'); ?>
 
 		<?php echo $form->labelEx($model,'cliente'); ?>
 		<?php echo $form->dropDownList($model,'cliente',CHtml::listData(InfoCliente::model()->findAll(),'cliente','cliente'),array(
@@ -27,10 +46,6 @@
 		<?php echo $form->labelEx($model,'pedido'); ?>
 		<?php echo $form->textField($model,'pedido',array('size'=>50,'maxlength'=>50)); ?>
 		<?php echo $form->error($model,'pedido'); ?>
-
-		<?php echo $form->labelEx($model,'valor_un'); ?>
-		<?php echo $form->textField($model,'valor_un',array('size'=>20,'maxlength'=>20)); ?>
-		<?php echo $form->error($model,'valor_un'); ?>
 
 		<?php echo $form->labelEx($model,'moneda'); ?>
 		<?php echo $form->textField($model,'moneda',array('size'=>50,'maxlength'=>50)); ?>

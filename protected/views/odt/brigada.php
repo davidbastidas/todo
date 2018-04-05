@@ -156,7 +156,7 @@ $(function() {
 		header: {
 			left: 'prev,next today',
 			center: 'title',
-			right: 'agendaWeek,agendaDay'
+			right: 'month,agendaWeek,agendaDay'
 		},
 		defaultView: 'agendaWeek',
 		events: [],

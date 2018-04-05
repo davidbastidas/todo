@@ -47,10 +47,10 @@ class InfoFacturacion extends CActiveRecord
 			array('item, cliente, pedido, moneda', 'length', 'max'=>50),
 			array('valor_un', 'length', 'max'=>20),
 			array('soporte, estado', 'length', 'max'=>100),
-			array('descripcion, alcance', 'safe'),
+			array('descripcion, alcance, prefijo, unidad', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, item, descripcion, cliente, pedido, valor_un, moneda, alcance, soporte, estado, fecha_creacion', 'safe', 'on'=>'search'),
+			array('id, item, descripcion, cliente, pedido, valor_un, moneda, alcance, soporte, estado, fecha_creacion, prefijo, unidad', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -73,10 +73,12 @@ class InfoFacturacion extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'item' => 'Item',
+			'prefijo' => 'Prefijo',
 			'descripcion' => 'Descripcion',
 			'cliente' => 'Cliente',
 			'pedido' => 'Pedido',
 			'valor_un' => 'Valor Un',
+			'unidad' => 'Mes, Dia, Global...',
 			'moneda' => 'Moneda',
 			'alcance' => 'Alcance',
 			'soporte' => 'Soporte',

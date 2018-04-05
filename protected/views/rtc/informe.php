@@ -16,7 +16,7 @@ Yii::app()->params['breadcrumbs']=
 				 '<i class="icon-angle-right arrow-icon"></i>'.
 			'</span>'.
 		'</li>'.
-		'<li>Informes y Facturacion</li>'.
+		'<li>Informes</li>'.
 	'</ul>'.
 '</div>';
 $json = json_decode($odt->json, true);
@@ -29,7 +29,7 @@ $sizeDesmontado = count($json['table_equipos_desmontados']);
 		Informe Rtc
 		<small>
 			<i class="ace-icon fa fa-angle-double-right"></i>
-			Materiales, Equipos &amp; Facturacion
+			Materiales, Equipos &amp; Jornadas
 		</small>
 	</h1>
 </div>
@@ -65,46 +65,9 @@ $sizeDesmontado = count($json['table_equipos_desmontados']);
 		</table>
 	</div>
 	<div class="span6">
-		<h4>Items de Facturacion</h4>
+		<h4>Jornada Laboral</h4>
 		<hr>
-		<div class="form-inline">
-			<select id="items_facturacion">
-				<option value="">[Seleecione un Item]</option>
-				<?php foreach ($model as $value) {?>
-					<option value="<?php echo $value->id?>"><?php echo $value->item. ' - ' .$value->descripcion ?></option>
-				<?php } ?>
-			</select>
-            <button  class="btn btn-small btn-primary" id="agregar_formato">Agregar</button>
-        </div>
-        <br>
-		
-		<table id="tabla_items_facturacion" class="table table-striped table-bordered table-hover">
-			<thead>
-				<tr>
-					<th>Item</th>
-					<th>Accion</th>
-					<th>Estado</th>
-				</tr>
-			</thead>
-
-			<tbody>
-		<?php foreach ($model as $value) {?>
-			<tr id="<?php echo $value->id?>">
-				<td>
-					<?php echo $value->item. ' - ' .$value->descripcion ?>
-				</td>
-				<td>
-					<button class="btn btn-mini btn-danger" onclick="eliminarItem(<?php echo $value->id?>);">
-						<i class="icon-trash bigger-120"></i>
-					</button>
-				</td>
-				<td>
-					<?php echo $value->estado?>
-				</td>
-			</tr>
-		<?php } ?>
-			</tbody>
-		</table>
+		Por calcular
 	</div>
 </div>
 <div class="row-fluid">

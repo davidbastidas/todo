@@ -13,7 +13,7 @@ class RtcController extends Controller{
 	public function accessRules(){
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index', 'ListarPruebas', 'ListarPruebasExcel', 'Informe'),
+				'actions'=>array('index', 'ListarPruebas', 'ListarPruebasExcel', 'Informe', 'Facturacion'),
 
 				'roles' => array('rol_administrador','rol_digitador','rol_consultas','rol_analista_odt','rol_brigada'),
 			),
@@ -216,9 +216,17 @@ class RtcController extends Controller{
     @id es el indicativo de la odt
     */
     public function actionInforme($id){
+        $odt = Odt::model()->findByPk($id);
+        $this -> render('informe',array('odt' => $odt));
+    }
+
+    /*
+    @id es el indicativo de la odt
+    */
+    public function actionFacturacion($id){
         $model = InfoFacturacion::model()->findAll();
         $odt = Odt::model()->findByPk($id);
-        $this -> render('informe',array('model' => $model, 'odt' => $odt));
+        $this -> render('facturacion',array('model' => $model, 'odt' => $odt));
     }
 }
 

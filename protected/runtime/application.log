@@ -3811,3 +3811,372 @@ Stack trace:
 REQUEST_URI=/todo/images/logo_applus.png
 HTTP_REFERER=http://localhost/todo/rtc/informe/18
 ---
+2018/04/05 04:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus2.png"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus2.png
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/05 04:17:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/odt/index
+---
+2018/04/05 04:17:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/index
+---
+2018/04/05 04:19:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/odt/llenarodt/18
+---
+2018/04/05 04:20:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/index
+---
+2018/04/05 04:24:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/index
+---
+2018/04/05 04:25:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/index
+---
+2018/04/05 04:28:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/index
+---
+2018/04/05 04:28:15 [error] [php] Undefined offset: 4 (C:\wamp\www\todo\protected\views\rtc\_data.php:30)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): RtcController->renderFile()
+#1 C:\wamp\www\todo\protected\controllers\RtcController.php(99): RtcController->renderPartial()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): RtcController->actionListarPruebas()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): RtcController->runAction()
+#5 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): RtcController->filterAccessControl()
+#8 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#10 C:\wamp\www\yii\framework\web\CController.php(266): RtcController->runActionWithFilters()
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(276): RtcController->run()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#13 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\wamp\www\todo\index.php(13): CWebApplication->run()
+REQUEST_URI=/todo/Rtc/ListarPruebas
+in C:\wamp\www\todo\protected\views\rtc\_data.php (30)
+in C:\wamp\www\todo\protected\controllers\RtcController.php (99)
+in C:\wamp\www\todo\index.php (13)
+2018/04/05 04:28:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/index
+---
+2018/04/05 04:28:23 [error] [php] Undefined offset: 7 (C:\wamp\www\todo\protected\views\rtc\_data.php:30)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): RtcController->renderFile()
+#1 C:\wamp\www\todo\protected\controllers\RtcController.php(99): RtcController->renderPartial()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): RtcController->actionListarPruebas()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): RtcController->runAction()
+#5 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): RtcController->filterAccessControl()
+#8 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#10 C:\wamp\www\yii\framework\web\CController.php(266): RtcController->runActionWithFilters()
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(276): RtcController->run()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#13 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\wamp\www\todo\index.php(13): CWebApplication->run()
+REQUEST_URI=/todo/Rtc/ListarPruebas
+in C:\wamp\www\todo\protected\views\rtc\_data.php (30)
+in C:\wamp\www\todo\protected\controllers\RtcController.php (99)
+in C:\wamp\www\todo\index.php (13)
+2018/04/05 04:28:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/05 04:28:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/index
+---
+2018/04/05 04:28:46 [error] [php] Undefined offset: 7 (C:\wamp\www\todo\protected\views\rtc\_data.php:30)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): RtcController->renderFile()
+#1 C:\wamp\www\todo\protected\controllers\RtcController.php(99): RtcController->renderPartial()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): RtcController->actionListarPruebas()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): RtcController->runAction()
+#5 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): RtcController->filterAccessControl()
+#8 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#10 C:\wamp\www\yii\framework\web\CController.php(266): RtcController->runActionWithFilters()
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(276): RtcController->run()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#13 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\wamp\www\todo\index.php(13): CWebApplication->run()
+REQUEST_URI=/todo/Rtc/ListarPruebas
+in C:\wamp\www\todo\protected\views\rtc\_data.php (30)
+in C:\wamp\www\todo\protected\controllers\RtcController.php (99)
+in C:\wamp\www\todo\index.php (13)
+2018/04/05 04:28:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/05 04:29:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/index
+---
+2018/04/05 04:29:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/05 04:30:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/index
+---
+2018/04/05 04:32:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus2.png"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus2.png
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/05 04:35:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus2.png"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus2.png
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/05 04:59:01 [warning] [application] Failed to set unsafe attribute "tipo_labor" of "Usuarios".
+in C:\wamp\www\todo\protected\controllers\UsuariosController.php (111)
+in C:\wamp\www\todo\index.php (13)
+2018/04/05 05:12:37 [error] [php] Undefined variable: odt (C:\wamp\www\todo\protected\controllers\RtcController.php:219)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): RtcController->runAction()
+#3 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 C:\wamp\www\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): RtcController->filterAccessControl()
+#6 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#8 C:\wamp\www\yii\framework\web\CController.php(266): RtcController->runActionWithFilters()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(276): RtcController->run()
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#11 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\wamp\www\todo\index.php(13): CWebApplication->run()
+REQUEST_URI=/todo/rtc/informe/3
+in C:\wamp\www\todo\protected\controllers\RtcController.php (219)
+in C:\wamp\www\todo\index.php (13)
+2018/04/05 05:25:53 [warning] [application] Failed to set unsafe attribute "prefijo" of "InfoFacturacion".
+in C:\wamp\www\todo\protected\controllers\InfoFacturacionController.php (98)
+in C:\wamp\www\todo\index.php (13)
+2018/04/05 05:25:53 [warning] [application] Failed to set unsafe attribute "unidad" of "InfoFacturacion".
+in C:\wamp\www\todo\protected\controllers\InfoFacturacionController.php (98)
+in C:\wamp\www\todo\index.php (13)
+2018/04/05 05:33:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/05 05:34:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/05 05:46:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/05 05:46:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/05 05:46:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/05 05:47:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/05 05:48:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/05 05:48:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/05 05:49:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/05 05:53:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/05 05:53:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/05 05:53:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/05 05:55:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/05 05:55:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/05 05:55:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/facturacion/18
+---
+2018/04/05 05:55:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
