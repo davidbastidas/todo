@@ -13,7 +13,8 @@ class RtcController extends Controller{
 	public function accessRules(){
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index', 'ListarPruebas', 'ListarPruebasExcel', 'Informe', 'Facturacion'),
+				'actions'=>array('index', 'ListarPruebas', 'ListarPruebasExcel', 'Informe', 'Facturacion', 
+                                'AgregarFactura', 'EliminarFactura'),
 
 				'roles' => array('rol_administrador','rol_digitador','rol_consultas','rol_analista_odt','rol_brigada'),
 			),
@@ -226,7 +227,36 @@ class RtcController extends Controller{
     public function actionFacturacion($id){
         $model = InfoFacturacion::model()->findAll();
         $odt = Odt::model()->findByPk($id);
-        $this -> render('facturacion',array('model' => $model, 'odt' => $odt));
+        $facturas = OdtFacturacion::model()->findAll('odt_fk = '.$id);
+        $this -> render('facturacion',array('model' => $model, 'facturas' => $facturas, 'odt' => $odt));
+    }
+
+    public function actionAgregarFactura(){
+        $createCommand = Yii::app()->db->createCommand();
+        $insert = $createCommand->insert('odt_facturacion', array(
+            'odt_fk' => $_POST['odt'],
+            'facturacion_fk' => $_POST['item'],
+            'criterio' => $_POST['criterio'],
+            'dividendo' => $_POST['dividendo'],
+            'estado' => '1'
+        ));
+        $res = false;
+        if($insert >0 ){
+            $res = true;
+        }
+
+        echo CJSON::encode(array(
+            'response' => $res,
+        ));
+    }
+
+    public function actionEliminarFactura($id){
+
+        $model = OdtFacturacion::model()->findByPk($id);
+        $odt = $model->odt_fk;
+        $model->delete();
+
+        $this->redirect(array('Facturacion', 'id' => $odt));
     }
 }
 

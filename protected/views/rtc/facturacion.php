@@ -52,7 +52,7 @@ $sizeDesmontado = count($json['table_equipos_desmontados']);
 				<option value="horas">Horas</option>
 			</select>
 			<input type="text" id="numero_dividir" placeholder="A dividir" class="input-small"/>
-            <button  class="btn btn-small btn-primary" id="agregar_formato">Agregar</button>
+            <button  class="btn btn-small btn-primary" onclick="agregar();">Agregar</button>
         </div>
         <br>
 		<div id="info-valor"></div>
@@ -68,24 +68,29 @@ $sizeDesmontado = count($json['table_equipos_desmontados']);
 			</thead>
 
 			<tbody>
-		<?php foreach ($model as $value) {?>
+		<?php foreach ($facturas as $value) {?>
 			<tr id="<?php echo $value->id?>">
 				<td>
-					<?php echo $value->item. ' - ' .$value->descripcion ?>
+					<?php echo $value->fk_item->item. ' - ' .$value->fk_item->descripcion ?>
 				</td>
 				<td>
-					<?php echo $value->item ?>
+					<?php echo $value->criterio ?>
 				</td>
 				<td>
-					<?php echo $value->item ?>
+					<?php echo $value->dividendo ?>
 				</td>
 				<td>
-					<button class="btn btn-mini btn-danger" onclick="eliminarItem(<?php echo $value->id?>);">
+					<button class="btn btn-mini btn-danger" onclick="eliminar(<?php echo $value->id?>);">
 						<i class="icon-trash bigger-120"></i>
 					</button>
 				</td>
 				<td>
-					<?php echo $value->estado?>
+					<?php 
+					if($value->estado == 1){
+						echo 'Activo';
+					}else{
+						echo 'Inactivo';
+					}?>
 				</td>
 			</tr>
 		<?php } ?>
@@ -102,4 +107,33 @@ $(document).on("change", "#items_facturacion", function() {
 	console.log(valor)
 	$("#info-valor").html("Valor del Item seleccionado: $ "+valor);
 });
+function agregar(){
+	$.ajax({
+        url:"<?php echo $nameProyect?>/rtc/AgregarFactura",
+        type:'POST',
+        dataType:"json",
+        cache:false,
+        data: {
+            odt: '<?php echo $odt->id?>',
+            item: $("#items_facturacion").val(),
+            criterio: $("#forma_dividir").val(),
+            dividendo: $("#numero_dividir").val()
+        },
+        beforeSend:  function() {
+            $("#info").html('<i class="icon-spinner icon-spin orange bigger-125"></i>');
+        },
+        success: function(data){
+        	if(data.response){
+        		$("#info").html('');
+        		location.href="<?php echo $nameProyect?>/rtc/facturacion/<?php echo $odt->id?>";
+        		
+        	}else{
+				$("#info").html('No se agrego el item');
+        	}
+        }
+    });
+}
+function eliminar(id){
+	location.href="<?php echo $nameProyect?>/rtc/EliminarFactura/"+id;
+}
 </script>
