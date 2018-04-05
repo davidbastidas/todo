@@ -81,7 +81,7 @@ window.jQuery || document.write("<script src='<?php  echo Yii::app() -> theme ->
 							'items' => array(
 									array('label' => '<i class="icon-beaker"></i> PreInformes', 'url' => array('/Preinformes/index'), 'visible' => !Yii::app()->user->isGuest,),
 									array('label' => '<i class="icon-bar-chart"></i> Informes', 'url' => array('/Informes/index'), 'visible' => !Yii::app()->user->isGuest,),
-									array('label' => '<i class="icon-file-alt"></i> Informe Grafico', 'url' => array('/Informes/grafico')),
+									array('label' => '<i class="icon-file-alt"></i> Informe Grafico', 'url' => array('/Graficos/index')),
 									array('label' => '<i class="icon-bar-chart"></i> Pruebas Aceite', 'url' => array('/Aceite/index'), 'visible' => !Yii::app()->user->isGuest,),
 							)),
 					array('label' => '<i class="icon-group"></i><span class="menu-text">Admin</span><b class="arrow icon-angle-down"></b>',
