@@ -1,23 +1,22 @@
 <?php
 
 /**
- * This is the model class for table "sub_estacion".
+ * This is the model class for table "municipio".
  *
- * The followings are the available columns in table 'sub_estacion':
+ * The followings are the available columns in table 'municipio':
  * @property integer $id
  * @property string $nombre
  * @property integer $fk_ubicacion
  *
  * The followings are the available model relations:
- * @property Equipos[] $equiposes
  * @property Ubicacion $fkUbicacion
  */
-class SubEstacion extends CActiveRecord
+class Municipio extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return SubEstacion the static model class
+	 * @return Municipio the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -29,7 +28,7 @@ class SubEstacion extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'sub_estacion';
+		return 'municipio';
 	}
 
 	/**
@@ -40,10 +39,9 @@ class SubEstacion extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nombre', 'required'),
-			array('nombre', 'unique'),
+			array('nombre, fk_ubicacion', 'required'),
 			array('fk_ubicacion', 'numerical', 'integerOnly'=>true),
-			array('nombre', 'length', 'max'=>64),
+			array('nombre', 'length', 'max'=>100),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, nombre, fk_ubicacion', 'safe', 'on'=>'search'),
@@ -58,9 +56,7 @@ class SubEstacion extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'equiposes' => array(self::HAS_MANY, 'Equipos', 'fk_sub_estacion'),
-			'fk_ubicacion_s' => array(self::BELONGS_TO, 'Ubicacion', 'fk_ubicacion'),
-			'fk_municipio_subestacion' => array(self::BELONGS_TO, 'Municipio', 'fk_municipio'),
+			'fk_ubicacion_municipio' => array(self::BELONGS_TO, 'Ubicacion', 'fk_ubicacion'),
 		);
 	}
 

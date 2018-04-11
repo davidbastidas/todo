@@ -24,7 +24,7 @@ class PruebasController extends Controller
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index', 'subestacion', 'ListaEquipos', 'EscogerPruebas', 'CrearPrueba', 'ListarPrueba',
 								 'AbrirTipoPrueba', 'ActualizarTipoPrueba', 'ActualizarDatosPrueba', 'SubirFoto', 'BuscarFotos', 
-								 'EliminarFoto', 'Ubicacion', 'Equipos', 'EliminarPrueba',),
+								 'EliminarFoto', 'Ubicacion', 'Equipos', 'EliminarPrueba', 'Municipios'),
 
 				'roles' => array('rol_administrador','rol_digitador','rol_consultas','rol_analista_odt','rol_brigada'),
 			),
@@ -49,6 +49,15 @@ class PruebasController extends Controller
 		$subestaciones = SubEstacion::model()->findAll("fk_ubicacion=".$_POST['zona']." ORDER BY nombre");
 		$res=$this->renderPartial('_subestacion', array(
 				'subestaciones' => $subestaciones,
+			), true);
+		echo CJSON::encode(array(
+            'response' => $res,
+        ));
+	}
+	public function actionMunicipios(){//aqui se despliega lo de la accion nueva prueba
+		$municipios = Municipio::model()->findAll("fk_ubicacion=".$_POST['ubicacion']." ORDER BY nombre");
+		$res=$this->renderPartial('_municipio', array(
+				'municipios' => $municipios,
 			), true);
 		echo CJSON::encode(array(
             'response' => $res,

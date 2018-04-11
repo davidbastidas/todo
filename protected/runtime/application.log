@@ -4180,3 +4180,1206 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
 ---
+2018/04/11 17:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/11 17:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.yiiactiveform.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.yiiactiveform.js
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/11 17:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus2.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus2.png
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/11 17:56:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/odt/index
+---
+2018/04/11 17:57:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/Equipos/index
+---
+2018/04/11 17:57:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/Equipos/index
+---
+2018/04/11 17:57:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Equipos/index
+---
+2018/04/11 17:57:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/Equipos/index
+---
+2018/04/11 17:57:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Equipos/index
+---
+2018/04/11 17:57:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/Subestacion/index
+---
+2018/04/11 17:57:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/Subestacion/index
+---
+2018/04/11 17:57:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Subestacion/index
+---
+2018/04/11 17:57:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/Subestacion/index
+---
+2018/04/11 17:57:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/Subestacion/index
+---
+2018/04/11 17:57:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Subestacion/index
+---
+2018/04/11 17:57:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/subestacion/create
+---
+2018/04/11 18:05:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "GII"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('GII')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/GII
+---
+2018/04/11 18:05:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/GII
+---
+2018/04/11 18:05:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/gii/default/login
+---
+2018/04/11 18:05:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/gii/default/index
+---
+2018/04/11 18:05:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/gii/model
+---
+2018/04/11 18:05:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jui/js/jquery-ui.min.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost/todo/gii/model
+---
+2018/04/11 18:05:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/gii/model
+---
+2018/04/11 18:05:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jui/js/jquery-ui.min.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost/todo/gii/model
+---
+2018/04/11 18:05:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/gii/model
+---
+2018/04/11 18:05:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jui/js/jquery-ui.min.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost/todo/gii/model
+---
+2018/04/11 18:05:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jui/js/jquery-ui.min.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost/todo/gii/model
+---
+2018/04/11 18:06:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/gii/crud
+---
+2018/04/11 18:06:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/gii/crud
+---
+2018/04/11 18:06:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/gii/crud
+---
+2018/04/11 18:07:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/gii/crud
+---
+2018/04/11 18:07:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/gii/crud
+---
+2018/04/11 18:09:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/subestacion/create
+---
+2018/04/11 18:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/Municipio/index
+---
+2018/04/11 18:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/Municipio/index
+---
+2018/04/11 18:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Municipio/index
+---
+2018/04/11 18:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/Municipio/index
+---
+2018/04/11 18:12:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/Municipio/index
+---
+2018/04/11 18:12:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/Municipio/index
+---
+2018/04/11 18:12:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Municipio/index
+---
+2018/04/11 18:12:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/Municipio/index
+---
+2018/04/11 18:12:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Municipio/index
+---
+2018/04/11 18:13:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/municipio/create
+---
+2018/04/11 18:24:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/municipio/create
+---
+2018/04/11 18:24:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/municipio/2
+---
+2018/04/11 18:24:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.yii.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.yii.js
+HTTP_REFERER=http://localhost/todo/municipio/2
+---
+2018/04/11 18:24:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/municipio/2
+---
+2018/04/11 18:24:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/municipio/2
+---
+2018/04/11 18:24:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.yii.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.yii.js
+HTTP_REFERER=http://localhost/todo/municipio/2
+---
+2018/04/11 18:24:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/municipio/2
+---
+2018/04/11 18:24:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/municipio/index
+---
+2018/04/11 18:24:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/municipio/index
+---
+2018/04/11 18:24:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/municipio/index
+---
+2018/04/11 18:24:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/municipio/index
+---
+2018/04/11 18:24:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/municipio/index
+---
+2018/04/11 18:24:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/municipio/index
+---
+2018/04/11 18:24:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/municipio/admin
+---
+2018/04/11 18:24:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/municipio/admin
+---
+2018/04/11 18:24:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/gridview/jquery.yiigridview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/gridview/jquery.yiigridview.js
+HTTP_REFERER=http://localhost/todo/municipio/admin
+---
+2018/04/11 18:24:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/municipio/admin
+---
+2018/04/11 18:24:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/gridview/jquery.yiigridview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/gridview/jquery.yiigridview.js
+HTTP_REFERER=http://localhost/todo/municipio/admin
+---
+2018/04/11 18:25:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/municipio/admin
+---
+2018/04/11 18:25:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/municipio/admin
+---
+2018/04/11 18:25:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/gridview/jquery.yiigridview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/gridview/jquery.yiigridview.js
+HTTP_REFERER=http://localhost/todo/municipio/admin
+---
+2018/04/11 18:25:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/municipio/admin
+---
+2018/04/11 18:25:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/gridview/jquery.yiigridview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/gridview/jquery.yiigridview.js
+HTTP_REFERER=http://localhost/todo/municipio/admin
+---
+2018/04/11 18:25:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/municipio/admin
+---
+2018/04/11 18:25:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/municipio/admin
+---
+2018/04/11 18:25:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/gridview/jquery.yiigridview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/gridview/jquery.yiigridview.js
+HTTP_REFERER=http://localhost/todo/municipio/admin
+---
+2018/04/11 18:25:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/municipio/admin
+---
+2018/04/11 18:25:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/gridview/jquery.yiigridview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/gridview/jquery.yiigridview.js
+HTTP_REFERER=http://localhost/todo/municipio/admin
+---
+2018/04/11 18:25:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/municipio/index
+---
+2018/04/11 18:25:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/municipio/index
+---
+2018/04/11 18:25:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/municipio/index
+---
+2018/04/11 18:25:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/municipio/index
+---
+2018/04/11 18:25:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/municipio/index
+---
+2018/04/11 18:25:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/municipio/1
+---
+2018/04/11 18:25:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.yii.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.yii.js
+HTTP_REFERER=http://localhost/todo/municipio/1
+---
+2018/04/11 18:25:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/municipio/1
+---
+2018/04/11 18:26:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/municipio/update/1
+---
+2018/04/11 18:26:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/municipio/index
+---
+2018/04/11 18:26:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/municipio/index
+---
+2018/04/11 18:26:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/municipio/index
+---
+2018/04/11 18:26:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/municipio/index
+---
+2018/04/11 18:27:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/Ubicacion/index
+---
+2018/04/11 18:27:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/Ubicacion/index
+---
+2018/04/11 18:27:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Ubicacion/index
+---
+2018/04/11 18:27:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/Ubicacion/index
+---
+2018/04/11 18:27:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Ubicacion/index
+---
+2018/04/11 18:27:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/Subestacion/index
+---
+2018/04/11 18:27:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/Subestacion/index
+---
+2018/04/11 18:27:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Subestacion/index
+---
+2018/04/11 18:27:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/Subestacion/index
+---
+2018/04/11 18:27:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Subestacion/index
+---
+2018/04/11 18:27:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/subestacion/create
+---
+2018/04/11 18:41:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/subestacion/create
+---
+2018/04/11 18:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/Equipos/index
+---
+2018/04/11 18:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/Equipos/index
+---
+2018/04/11 18:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Equipos/index
+---
+2018/04/11 18:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/Equipos/index
+---
+2018/04/11 18:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Equipos/index
+---
+2018/04/11 18:44:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/equipos/create
+---
+2018/04/11 18:45:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/Equipos/index
+---
+2018/04/11 18:45:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/Equipos/index
+---
+2018/04/11 18:45:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Equipos/index
+---
+2018/04/11 18:45:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/Equipos/index
+---
+2018/04/11 18:45:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/Equipos/index
+---
+2018/04/11 18:45:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Equipos/index
+---
+2018/04/11 18:45:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/equipos/create
+---
+2018/04/11 18:47:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/11 18:48:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/subestacion/create
+---
+2018/04/11 18:48:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/subestacion/create
+---
+2018/04/11 18:48:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/subestacion/create
+---
+2018/04/11 18:58:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/subestacion/create
+---
+2018/04/11 18:58:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/tema2/views/opensans/open-sans.css.map"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/tema2/vi...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
+---
+2018/04/11 19:03:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/odt/index
+---
+2018/04/11 19:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/Ubicacion/index
+---
+2018/04/11 19:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/Ubicacion/index
+---
+2018/04/11 19:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Ubicacion/index
+---
+2018/04/11 19:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/Ubicacion/index
+---
+2018/04/11 19:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/Ubicacion/index
+---
+2018/04/11 19:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Ubicacion/index
+---
+2018/04/11 19:03:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/ubicacion/create
+---
+2018/04/11 19:03:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/Municipio/index
+---
+2018/04/11 19:03:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/Municipio/index
+---
+2018/04/11 19:03:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Municipio/index
+---
+2018/04/11 19:03:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/Municipio/index
+---
+2018/04/11 19:03:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/municipio/create
+---
+2018/04/11 19:04:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.js
+HTTP_REFERER=http://localhost/todo/Subestacion/index
+---
+2018/04/11 19:04:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/fd98d75a/jquery.ba-bbq.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/fd98d75a...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/fd98d75a/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost/todo/Subestacion/index
+---
+2018/04/11 19:04:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Subestacion/index
+---
+2018/04/11 19:04:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/Subestacion/index
+---
+2018/04/11 19:04:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/99c46320/listview/jquery.yiilistview.js"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/99c46320...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/assets/99c46320/listview/jquery.yiilistview.js
+HTTP_REFERER=http://localhost/todo/Subestacion/index
+---
+2018/04/11 19:04:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo_applus.png"' in C:\wamp64\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo_app...')
+#1 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\todo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/subestacion/create
+---

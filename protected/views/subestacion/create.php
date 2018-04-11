@@ -39,4 +39,26 @@ $this->menu=array(
 	</div>
 </div>
 
-
+<script type="text/javascript">
+$(function() {
+	$('.fk_ubicacion').on('change', function() {
+        $.ajax({
+            url:"<?php echo $nameProyect?>/Pruebas/Municipios",
+            type:'POST',
+            dataType:"json",
+            cache:false,
+            data: {
+                ubicacion: this.value
+            },
+            beforeSend:  function() {
+                $("#info").html('<i class="icon-spinner icon-spin orange bigger-125"></i>');
+            },
+            success: function(data){
+                console.log(data.response)
+                $("#fk_municipio").html(data.response);
+                $("#info").html('');
+            }
+        });
+    });
+});
+</script>

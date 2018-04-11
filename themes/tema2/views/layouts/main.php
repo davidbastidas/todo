@@ -98,6 +98,7 @@ window.jQuery || document.write("<script src='<?php  echo Yii::app() -> theme ->
 									array('label' => '<i class="icon-info-sign"></i> Equipos', 'url' => array('/Equipos/index'), 'visible' => !Yii::app()->user->isGuest,),
 									array('label' => '<i class="icon-info-sign"></i> Subestaciones', 'url' => array('/Subestacion/index'), 'linkOptions'=> array('id'=>'subestacion',), 'visible' => !Yii::app()->user->isGuest,),
 									array('label' => '<i class="icon-info-sign"></i> Ubicacion', 'url' => array('/Ubicacion/index'), 'linkOptions'=> array('id'=>'ubicacion',), 'visible' => !Yii::app()->user->isGuest,),
+									array('label' => '<i class="icon-info-sign"></i> Municipios', 'url' => array('/Municipio/index'), 'linkOptions'=> array('id'=>'ubicacion',), 'visible' => !Yii::app()->user->isGuest,),
 							)),
 					array('label' => '<i class="icon-cog"></i><span class="menu-text">Configuracion</span><b class="arrow icon-angle-down"></b>',
 							'url' => array('/#'),
