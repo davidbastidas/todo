@@ -45,12 +45,12 @@ class Usuarios extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nickname, nombre, fk_tipo, contrasena, email, estado, tipo_labor', 'required'),
+			array('nickname, nombre, fk_tipo, contrasena, email, estado', 'required'),
 			array('fk_tipo, estado', 'numerical', 'integerOnly'=>true),
 			array('nickname, nombre, contrasena, sesion, email', 'length', 'max'=>100),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, nickname, nombre, fk_tipo, contrasena, sesion, email, estado, tipo_labor', 'safe', 'on'=>'search'),
+			array('id, nickname, nombre, fk_tipo, contrasena, sesion, email, estado', 'safe', 'on'=>'search'),
 		);
 	}
 

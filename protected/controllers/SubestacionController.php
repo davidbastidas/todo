@@ -70,6 +70,7 @@ class SubestacionController extends Controller
 		if(isset($_POST['SubEstacion']))
 		{
 			$model->attributes=$_POST['SubEstacion'];
+			$model->fk_municipio = $_POST['SubEstacion']['fk_municipio'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -94,6 +95,7 @@ class SubestacionController extends Controller
 		if(isset($_POST['SubEstacion']))
 		{
 			$model->attributes=$_POST['SubEstacion'];
+			$model->fk_municipio = $_POST['SubEstacion']['fk_municipio'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}

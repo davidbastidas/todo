@@ -46,7 +46,7 @@ class SubEstacion extends CActiveRecord
 			array('nombre', 'length', 'max'=>64),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, nombre, fk_ubicacion', 'safe', 'on'=>'search'),
+			array('id, nombre, fk_ubicacion, fk_municipio', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -90,6 +90,7 @@ class SubEstacion extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('nombre',$this->nombre,true);
 		$criteria->compare('fk_ubicacion',$this->fk_ubicacion);
+		$criteria->compare('fk_municipio',$this->fk_municipio);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

@@ -35,45 +35,67 @@ Yii::app()->params['breadcrumbs']='<div class="breadcrumbs fixed" id="breadcrumb
 		</div>
 		<div class="form-group span3">
 			<label for="ubicacion">Ubicacion</label>
-			<input type="text" placeholder="Ubicacion" id="ubicacion" name="ubicacion"/>
+			<?php 
+			echo CHtml::dropDownList('ubicacionfk', 'ubicacionfk', 
+              CHtml::listData(Ubicacion::model()->findAll(),'nombre','nombre'),
+              array('empty' => '[Seleccione la ubicacion]'));
+			?>
 		</div>
 		<div class="form-group span3">
 			<label for="pep">PEP</label>
-			<input type="text" placeholder="PEP" id="pep" name="pep"/>
+			<?php 
+			echo CHtml::dropDownList('pep', 'pep', 
+              CHtml::listData(InfoPep::model()->findAll(),'id','nombre'),
+              array('empty' => '[Seleccione el pep]'));
+			?>
 		</div>
 	</div>
 </div>
 <div class="row-fluid">
+	<div class="span12">
+		<div class="form-group span3">
+			<label for="horario">Horario</label>
+			<?php 
+			echo CHtml::dropDownList('horario', 'horario', 
+              	array(
+					'ORDINARIO 7:00 A 17:00' => 'ORDINARIO 7:00 A 17:00', 
+					'ORDINARIO 8:00 A 18:00'=>'ORDINARIO 8:00 A 18:00',
+					'TURNO 6:00 A 14:00'=>'TURNO 6:00 A 14:00',
+					'TURNO 14:00 A 22:00'=>'TURNO 14:00 A 22:00',
+					'TURNO 22:00 A 6:00'=>'TURNO 22:00 A 6:00'
+				),
+              array('empty' => '[Seleccione el Horario]'));
+			?>
+		</div>
+		<div class="form-group span9">
+			<label for="usuario">Operarios</label>
+			<div class="form-inline">
+				<select class="form-class" id="usuario" name="usuario" data-placeholder="Elija un usuario...">
+					<option value="">Seleccione el operario</option>
+					<?php foreach ($model as $key) {?>
+					<option value="<?php echo $key->id ?>" ><?php echo $key->nombre ?></option>
+					<?php }?> 
+				</select>
+				<button class="btn btn-primary btn-small agregar">Agregar</button>
+			</div><br>
+			<table class="table table-bordered table-hover">
+				<tr>
+					<th>Id</th>
+					<th>Nombre</th>
+					<th>Es Jefe</th>
+					<th>Accion</th>
+				</tr>
+				<tbody id="brigadistas"></tbody>
+			</table>
+		</div>
+	</div>
+</div>
+<div class="row-fluid" style="display: none;">
 	<div class="span12">
 		<div class="form-group span3">
 			<label for="nombre">Jefe de la brigada</label>
 			<input type="text" placeholder="Jefe" id="jefe" name="jefe"/>
 		</div>
-		<div class="form-group span3">
-			<label for="vehiculo">Vehiculo</label>
-			<input type="text" placeholder="Vehiculo" id="vehiculo" name="vehiculo"/>
-		</div>
-		<div class="form-group span3">
-			<label for="telefono">Telefono</label>
-			<input type="text" placeholder="Telefono" id="telefono" name="telefono"/>
-		</div>
-	</div>
-</div>
-<div class="row-fluid">
-	<div class="span12">
-		<div class="form-inline">
-			<label for="usuario">Operarios</label>
-
-			<select class="form-class" id="usuario" name="usuario" data-placeholder="Elija un usuario...">
-				<option value="">Seleccione el operario</option>
-				<?php foreach ($model as $key) {?>
-				<option value="<?php echo $key->id ?>" ><?php echo $key->nombre ?></option>
-				<?php }?> 
-			</select>
-			<button class="btn btn-primary btn-small agregar">Agregar</button>
-		</div>
-		<table>
-		</table>
 	</div>
 </div>
 <hr>
@@ -94,9 +116,17 @@ Yii::app()->params['breadcrumbs']='<div class="breadcrumbs fixed" id="breadcrumb
 					}
 				});
 				if(pasa){
-					$("table").append("<tr>"+
+					$("#brigadistas").append("<tr>"+
 						"<td class='usuario_id'>"+usuario.id+"</td>"+
 						"<td class='usuario_nombre'>"+usuario.nombre+"</td>"+
+						"<td class='usuario_nombre'>"+
+							"<div class='radio'>"+
+								"<label>"+
+									"<input name='form-field-radio' type='radio' class='ace radio_jefe'>"+
+									"<span class='lbl radio_jefe'></span>"+
+								"</label>"+
+							"</div>"+
+						"</td>"+
 						"<td class='remover'><a href='#' onclick='remover(this)'><i class='fa fa-remove'></i></a></td>"+
 						"</tr>");
 				}else{
@@ -108,7 +138,7 @@ Yii::app()->params['breadcrumbs']='<div class="breadcrumbs fixed" id="breadcrumb
 		$('.guardar').on('click', function () {
 			var array = [];
 			var objeto = null;
-			$('table > tbody  > tr').each(function() {
+			$('#brigadistas').each(function() {
 				objeto = new Object();
 				objeto.id = $(this).find('.usuario_id').html();
 				objeto.nombre = $(this).find('.usuario_nombre').html();
@@ -116,6 +146,7 @@ Yii::app()->params['breadcrumbs']='<div class="breadcrumbs fixed" id="breadcrumb
 			});
 			crearBrigada(JSON.stringify(array))
 		});
+		
 		function crearBrigada(json){
 			$.ajax({
 	            url:"<?php echo $nameProyect?>/Usuarios/CrearBrigada",
@@ -124,6 +155,10 @@ Yii::app()->params['breadcrumbs']='<div class="breadcrumbs fixed" id="breadcrumb
 	            cache:false,
 	            data: {
 	                nombre: $("#nombre").val(),
+	                descripcion: $("#descripcion").val(),
+	                ubicacion: $("#ubicacionfk").val(),
+	                pep: $("#pep").val(),
+	                horario: $("#horario").val(),
 	                jefe: $("#jefe").val(),
 	                json: json
 	            },
@@ -149,4 +184,8 @@ Yii::app()->params['breadcrumbs']='<div class="breadcrumbs fixed" id="breadcrumb
 		}));
 		tr.remove();
 	}
+	$(document).on('click','.radio_jefe',function(){
+			console.log($(this).parent().parent().parent().parent().find('.usuario_id').html())
+			$("#jefe").val($(this).parent().parent().parent().parent().find('.usuario_id').html())
+	});
 </script>

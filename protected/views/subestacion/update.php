@@ -39,3 +39,35 @@ $this->menu=array(
 			<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>		</div>
 	</div>
 </div>
+
+<script type="text/javascript">
+$(function() {
+	$('.fk_ubicacion').on('change', function() {
+        consultaMunicipios();
+    });
+	function consultaMunicipios(){
+		$.ajax({
+            url:"<?php echo $nameProyect?>/Pruebas/Municipios",
+            type:'POST',
+            dataType:"json",
+            async: false,
+            cache:false,
+            data: {
+                ubicacion: $(".fk_ubicacion").val()
+            },
+            beforeSend:  function() {
+                $("#info").html('<i class="icon-spinner icon-spin orange bigger-125"></i>');
+            },
+            success: function(data){
+                console.log(data.response)
+                $("#fk_municipio").html(data.response);
+                $("#info").html('');
+            }
+        });
+	}
+	consultaMunicipios();
+	<?php if(isset($model->fk_municipio_subestacion->id)){ ?>
+		$('#fk_municipio').val(<?php echo $model->fk_municipio_subestacion->id?>).trigger('change');
+	<?php } ?>
+});
+</script>

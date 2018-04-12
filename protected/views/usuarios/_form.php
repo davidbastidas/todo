@@ -35,16 +35,6 @@
 	        'class'=>'form-control',
         )); ?>
 		<?php echo $form->error($model,'fk_tipo'); ?>
-
-		<?php echo $form->labelEx($model,'tipo_labor'); ?>
-		<?php echo $form->dropDownList($model,'tipo_labor', array(
-															'ORDINARIO 7:00 A 17:00' => 'ORDINARIO 7:00 A 17:00', 
-															'ORDINARIO 8:00 A 18:00'=>'ORDINARIO 8:00 A 18:00',
-															'TURNO 6:00 A 14:00'=>'TURNO 6:00 A 14:00',
-															'TURNO 14:00 A 22:00'=>'TURNO 14:00 A 22:00',
-															'TURNO 22:00 A 6:00'=>'TURNO 22:00 A 6:00'
-										), array('empty' => '[SELECCIONE EL ESTADO]','class'=>'form-control')); ?>
-		<?php echo $form->error($model,'tipo_labor'); ?>
 	</fieldset>
 	<div class="form-actions center">
 		<button class="btn btn-small btn-success" name="yt0">

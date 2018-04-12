@@ -47,13 +47,13 @@ class Brigadas extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nombre, datos_json', 'required'),
+			array('nombre, datos_json, horario', 'required'),
 			array('estado, coordinador', 'numerical', 'integerOnly'=>true),
 			array('nombre, descripcion, ubicacion, pep', 'length', 'max'=>150),
 			array('jefe, vehiculo, telefono', 'length', 'max'=>64),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, nombre, descripcion, ubicacion, pep, jefe, vehiculo, telefono, datos_json, estado, coordinador', 'safe', 'on'=>'search'),
+			array('id, nombre, descripcion, ubicacion, pep, jefe, vehiculo, telefono, datos_json, estado, coordinador, horario', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -66,6 +66,7 @@ class Brigadas extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'fk_coordinador_usuario' => array(self::BELONGS_TO, 'Usuarios', 'coordinador'),
+			'fk_pep' => array(self::BELONGS_TO, 'InfoPep', 'pep'),
 		);
 	}
 
@@ -111,6 +112,7 @@ class Brigadas extends CActiveRecord
 		$criteria->compare('datos_json',$this->datos_json,true);
 		$criteria->compare('estado',$this->estado);
 		$criteria->compare('coordinador',$this->coordinador);
+		$criteria->compare('horario',$this->horario);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
