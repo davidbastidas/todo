@@ -64,7 +64,7 @@ return array(
             'connectionString' => 'mysql:host=127.0.0.1;dbname=applus',
             'emulatePrepare' => true,
             'username' => 'root',
-            'password' => '',
+            'password' => '12345',
             'charset' => 'utf8',
         ),
         'errorHandler' => array(

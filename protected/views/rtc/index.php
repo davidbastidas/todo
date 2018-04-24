@@ -17,7 +17,7 @@ Yii::app()->params['breadcrumbs']=
 <div id="info"></div>
 <div class="widget-box">
 	<div class="widget-header">
-		<h5>Busqueda</h5>
+		<h5>Busqueda1</h5>
 
 		<div class="widget-toolbar">
 			<a href="#" data-action="collapse">
@@ -49,7 +49,7 @@ Yii::app()->params['breadcrumbs']=
 						<option value=""></option>
 						<?php foreach ($brigadas as $key) {?>
 						<option value="<?php echo $key->id ?>" ><?php echo $key->nombre ?></option>
-						<?php }?> 
+						<?php }?>
 					</select>
 
 					<button class="btn btn-small btn-primary" onclick="consultar()">
@@ -127,16 +127,16 @@ function borrar(id){
 }
 function excel(){
 	var form = document.createElement("form");
-    var desde2 = document.createElement("input"); 
-    var hasta2 = document.createElement("input"); 
-    var brigada2 = document.createElement("input");  
+    var desde2 = document.createElement("input");
+    var hasta2 = document.createElement("input");
+    var brigada2 = document.createElement("input");
 
     form.method = "POST";
-    form.action = "<?php echo $nameProyect?>/Rtc/ListarPruebasExcel";   
+    form.action = "<?php echo $nameProyect?>/Rtc/ListarPruebasExcel";
 
     desde2.value=$("#desde").val();
     desde2.name="desde2";
-    form.appendChild(desde2);  
+    form.appendChild(desde2);
 
     hasta2.value=$("#hasta").val();
     hasta2.name="hasta2";

@@ -7432,3 +7432,90 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/todo/themes/tema2/views/opensans/open-sans.css.map
 ---
+2018/04/23 21:55:45 [error] [exception.CDbException] CDbException: CDbConnection falló al abrir la conexion a la base de datos: SQLSTATE[HY000] [1049] Unknown database 'applus' in /var/www/html/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/yii/framework/web/auth/CDbAuthManager.php(586): CModule->getComponent('db')
+#4 /var/www/html/yii/framework/web/auth/CDbAuthManager.php(60): CDbAuthManager->getDbConnection()
+#5 /var/www/html/yii/framework/base/CModule.php(388): CDbAuthManager->init()
+#6 /var/www/html/yii/framework/base/CModule.php(104): CModule->getComponent('authManager')
+#7 /var/www/html/todo/themes/tema2/views/layouts/main.php(68): CModule->__get('authManager')
+#8 /var/www/html/yii/framework/web/CBaseController.php(127): require('/var/www/html/t...')
+#9 /var/www/html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/html/t...', Array, true)
+#10 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/var/www/html/t...', Array, true)
+#11 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('\t<style>\n.login...')
+#12 /var/www/html/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('\t<style>\n.login...')
+#13 /var/www/html/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#14 /var/www/html/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#15 /var/www/html/todo/themes/tema2/views/layouts/column1.php(3): CBaseController->endContent()
+#16 /var/www/html/yii/framework/web/CBaseController.php(127): require('/var/www/html/t...')
+#17 /var/www/html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/html/t...', Array, true)
+#18 /var/www/html/yii/framework/web/CController.php(785): CBaseController->renderFile('/var/www/html/t...', Array, true)
+#19 /var/www/html/todo/protected/controllers/SiteController.php(97): CController->render('login', Array)
+#20 /var/www/html/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionLogin()
+#21 /var/www/html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#22 /var/www/html/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#23 /var/www/html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /var/www/html/yii/framework/web/CWebApplication.php(276): CController->run('login')
+#25 /var/www/html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/login')
+#26 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#27 /var/www/html/todo/index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/todo/site/login
+---
+2018/04/23 21:58:46 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/logo_applus2.png" in /var/www/html/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/html/todo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus2.png
+HTTP_REFERER=http://localhost/todo/site/login
+---
+2018/04/23 21:58:54 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/logo_applus.png" in /var/www/html/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/html/todo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/odt/index
+---
+2018/04/23 21:59:14 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/logo_applus.png" in /var/www/html/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/html/todo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/index
+---
+2018/04/23 21:59:17 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/logo_applus.png" in /var/www/html/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/html/todo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/facturacion/18
+---
+2018/04/23 21:59:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/logo_applus.png" in /var/www/html/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/html/todo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/index
+---
+2018/04/23 22:02:45 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/logo_applus.png" in /var/www/html/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('images/logo_app...')
+#1 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/html/todo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/todo/images/logo_applus.png
+HTTP_REFERER=http://localhost/todo/rtc/index
+---
