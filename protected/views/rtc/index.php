@@ -17,7 +17,7 @@ Yii::app()->params['breadcrumbs']=
 <div id="info"></div>
 <div class="widget-box">
 	<div class="widget-header">
-		<h5>Busqueda1</h5>
+		<h5>Busqueda</h5>
 
 		<div class="widget-toolbar">
 			<a href="#" data-action="collapse">
